@@ -1,1 +1,0 @@
-## 📊 RFP Lifecycle Overview

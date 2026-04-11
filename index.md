@@ -7,7 +7,7 @@ title: RFP Playbook
 
 ## 📊 Overview
 
-![RFP Lifecycle](rfp-diagram.png)
+![RFP Lifecycle](/images/rfp-diagram.png)
 
 ---
 
