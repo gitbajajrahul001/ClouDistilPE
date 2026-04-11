@@ -150,4 +150,38 @@ Select best vendor
 | Risk assessment |
 | Vendor presentations |
 
+---
+
+# 🧠 Key Real-World Insights
+
+---
+
+## 1. RFI Is Optional but Very Common in Large Enterprises
+
+Used when:
+
+| Situation |
+|-----------|
+| Problem is complex |
+| Market understanding is needed |
+
+---
+
+## 2. Procurement Drives Process, but IT Defines Content
+
+| Function | Role |
+|----------|------|
+| Procurement | Process owner |
+| Architects | Solution owner |
+
+---
+
+## 3. Most Failures Happen Due To
+
+| Issue |
+|-------|
+| Poor scope definition |
+| Lack of clarity in RFP |
+| Unrealistic expectations |
+
 
