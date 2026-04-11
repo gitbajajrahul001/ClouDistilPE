@@ -11,7 +11,9 @@ In my early years, I struggled to understand the RFP process—not just from a s
 
 I’ve put this together for anyone who finds themselves in the same position I once was—trying to connect the dots. My aim is to present the RFP lifecycle in a structured, sequential way, covering details that are often scattered or not easily accessible in one place. I hope you find it useful !
 
-## 📊 Overview
+## 📊 A Typical RFP Flow Chart
+
+The RFP process is often misunderstood as a single document or event. In reality, it is a multi-stage journey that starts long before vendors are engaged. The diagram below provides a high-level view of how an enterprise RFP lifecycle typically flows—from initial problem recognition to final vendor evaluation.
 
 ![RFP Lifecycle](/images/rfp-diagram.png)
 
