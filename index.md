@@ -1,9 +1,9 @@
 ---
 layout: default
-title: From Problem to Proposal The RFP Journey
+title: From Problem to Proposal- The RFP Journey
 ---
 
-# 🏢 From Problem to Proposal: The RFP Journey
+# 🏢 From Problem to Proposal- The RFP Journey
 
 This is a practical guide to the enterprise Request for Proposal lifecycle—from problem recognition to vendor evaluation.
 
