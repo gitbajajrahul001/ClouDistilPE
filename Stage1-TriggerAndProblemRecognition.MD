@@ -1,3 +1,7 @@
+---
+layout: default
+title: Stage 1
+---
 # Why Most RFP Processes Fail Before They Even Begin
 
 Most organizations think a Request for Proposal (RFP) starts when the document is sent to vendors.
