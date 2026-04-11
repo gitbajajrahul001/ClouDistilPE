@@ -1,3 +1,7 @@
+---
+layout: default
+title: Stage 2
+---
 # Stage 2: Initial Scoping and Leadership Alignment
 
 At this point, Acme moves from “we have a problem” to “what kind of problem is it?”
