@@ -25,7 +25,3 @@ title: RFP Playbook
 | Stage 8–12: Execution | [Open](stage-8-12.md) |
 
 ---
-
-## 🧠 Key Insights
-
-[View Insights](insights.md)
