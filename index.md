@@ -21,6 +21,7 @@ I’ve put this together for anyone who finds themselves in the same position I 
 
 | Stage | Link |
 |------|------|
+| Stage 0: Context Setting | [Open](stage-0.md) |
 | Stage 1: Trigger & Problem Recognition | [Open](stage-1.md) |
 | Stage 2: Scoping & Alignment | [Open](stage-2.md) |
 | Stage 3: Current-State Assessment | [Open](stage-3.md) |
