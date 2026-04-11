@@ -77,3 +77,7 @@ The target state becomes either:
 | Too detailed too early |
 
 A good target state is directional and outcome-focused, without prematurely dictating every implementation detail.
+
+---
+
+➡️ Next: [Stage 5](stage-5.md)

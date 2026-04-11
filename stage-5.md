@@ -372,3 +372,6 @@ Whenever you face such decisions, ask:
 | What is the speed vs control trade-off? |
 | What is the internal capability? |
 
+---
+
+➡️ Next: [Stage 6](stage-6.md)

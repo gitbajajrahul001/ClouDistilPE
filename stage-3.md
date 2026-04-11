@@ -106,3 +106,7 @@ Typical issues:
 ## Final Insight
 
 If the current-state assessment is weak, the Request for Proposal will be weak.
+
+---
+
+➡️ Next: [Stage 4](stage-4.md)

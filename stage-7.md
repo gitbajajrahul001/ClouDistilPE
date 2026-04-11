@@ -118,3 +118,7 @@ How Acme will evaluate vendors:
 | Output |
 |--------|
 | Final RFP Document |
+
+---
+
+➡️ Next: [Stage 8-12](stage-8-12.md)

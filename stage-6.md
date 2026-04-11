@@ -63,3 +63,7 @@ Vendors respond with:
 | Shortlist of vendors (e.g., 2–4 vendors) |
 
 👉 Only shortlisted vendors move to RFP stage
+
+---
+
+➡️ Next: [Stage 7](stage-7.md)
