@@ -1,11 +1,11 @@
 ---
 layout: default
-title: RFP Playbook
+title: From Problem to Proposal: The RFP Journey
 ---
 
-# 🏢 Enterprise RFP Playbook
+# 🏢 From Problem to Proposal: The RFP Journey
 
-A practical guide to the enterprise Request for Proposal lifecycle—from problem recognition to vendor evaluation.
+This is a practical guide to the enterprise Request for Proposal lifecycle—from problem recognition to vendor evaluation.
 
 In my early years, I struggled to understand the RFP process—not just from a service provider’s perspective, but also from where it originates within an organization. When I searched online, most of what I found was fragmented and often added to the confusion rather than resolving it. It was only after spending significant time working through real scenarios that the process started to make sense end-to-end. This series is based on that journey.
 
