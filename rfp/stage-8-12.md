@@ -203,5 +203,5 @@ Used when:
 | Lack of clarity in RFP |
 | Unrealistic expectations |
 
-[⬅ Back to Series Home](index.md)
+[⬅ Back to Series Home](index.md) | [⬅Back to Stage 7](stage-7.md)
 
