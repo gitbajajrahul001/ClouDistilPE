@@ -1,0 +1,132 @@
+# 🏢 Stage 8 — Internal Review & Approval
+
+## 🎯 Goal
+
+Ensure RFP is:
+
+| Objective |
+|----------|
+| Complete |
+| Risk-free |
+| Legally sound |
+
+---
+
+## 👥 Who Is Involved
+
+| Role |
+|------|
+| CIO / CTO |
+| Procurement |
+| Legal |
+| Risk & Compliance |
+
+---
+
+## 🛠 What Happens
+
+| Function | Activity |
+|----------|----------|
+| Legal | Reviews liability clauses and penalties |
+| Risk Team | Reviews vendor dependency risks |
+| IT | Validates technical completeness |
+
+---
+
+## 📦 Output
+
+| Output |
+|--------|
+| Approved RFP ready for release |
+
+
+🏢 STAGE 9 — RFP RELEASE TO VENDORS
+🎯 Goal:
+
+Start formal vendor engagement
+
+👥 Who is involved:
+Procurement (primary owner)
+🛠 What happens:
+RFP sent to shortlisted vendors
+Timeline shared:
+Q&A window (vendors can ask clarification questions)
+Submission deadline
+📦 Output:
+Vendors start preparing proposals
+
+---
+
+# 🏢 Stage 10 — Bidder Engagement (Critical Real-World Step)
+
+## 🎯 Goal
+
+Ensure vendors clearly understand requirements
+
+---
+
+## 🛠 What Happens
+
+### 1. Pre-bid Conference
+
+| Activity |
+|----------|
+| Meeting between Acme and vendors |
+| Clarifications on scope |
+
+---
+
+### 2. Q&A Process
+
+| Activity |
+|----------|
+| Vendors submit questions |
+| Acme responds formally |
+
+---
+
+## 📦 Output
+
+| Output |
+|--------|
+| Clarified requirements |
+| Reduced ambiguity |
+
+---
+
+# 🏢 Stage 11 — Proposal Submission
+
+## 🎯 Goal
+
+Vendors submit their solutions
+
+---
+
+## 🛠 What Vendors Submit
+
+| Submission Component |
+|----------------------|
+| Technical architecture |
+| Migration strategy |
+| Delivery model |
+| Pricing |
+| Timeline |
+
+---
+
+# 🏢 Stage 12 — Evaluation (High-Level for Now)
+
+## 🎯 Goal
+
+Select best vendor
+
+---
+
+## 🛠 Evaluation Includes
+
+| Evaluation Area |
+|-----------------|
+| Technical scoring |
+| Commercial scoring |
+| Risk assessment |
+| Vendor presentations |
