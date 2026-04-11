@@ -12,7 +12,7 @@ This is where Acme documents the current estate.
 
 ## What This Stage Is
 
-In your Acme case, that includes:
+In our Acme case, that includes:
 
 | Current Estate |
 |----------------|
@@ -71,9 +71,7 @@ This often happens when the internal organization lacks:
 
 ## What Gets Produced
 
-This stage should produce real artifacts, not vague opinions.
-
-Typical outputs include:
+This stage should produce real artifacts, not vague opinions. Typical outputs include:
 
 | Output |
 |--------|

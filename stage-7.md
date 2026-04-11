@@ -14,9 +14,7 @@ Create a detailed document asking vendors:
 
 ## ❓ What Is RFP (Request for Proposal)?
 
-A Request for Proposal (RFP) is:
-
-A formal document that asks vendors to provide:
+A Request for Proposal (RFP) is a formal document that asks vendors to provide:
 
 | Requirement |
 |-------------|

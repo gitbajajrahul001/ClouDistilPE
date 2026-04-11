@@ -4,15 +4,11 @@ title: Stage 2
 ---
 # Stage 2: Initial Scoping and Leadership Alignment
 
-At this point, Acme moves from “we have a problem” to “what kind of problem is it?”
-
-This is where many sourcing efforts quietly fail.
+At this point, Acme moves from “we have a problem” to “what kind of problem is it?” This is where many sourcing efforts quietly fail.
 
 ---
 
 ## What This Stage Is
-
-Now Acme moves from “we have a problem” to “what kind of problem is it?”
 
 This is where they start aligning on what they are actually trying to solve.
 
@@ -82,9 +78,7 @@ Usually one or more of these:
 | Security | Wants control |
 | Operations | Wants stability |
 
-No one reconciles these into a common vision.
-
-If that happens, the Request for Proposal becomes confused and vendors respond to different interpretations.
+No one reconciles these into a common vision. If that happens, the Request for Proposal becomes confused and vendors respond to different interpretations.
 
 
 ---

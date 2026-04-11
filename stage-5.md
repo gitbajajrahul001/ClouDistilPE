@@ -91,7 +91,7 @@ What kind of vendors are eligible:
 | Vendor selection approach defined |
 
 --- 
-# Deep Dive in each Section
+# Now a Deeper Dive in each Section
 
 # 🧠 Sourcing Strategy Decisions — How Enterprises Actually Decide
 

@@ -6,17 +6,13 @@ title: Stage 6
 
 ## 🎯 Goal
 
-Before asking for proposals, Acme first gathers:
-
-Information about vendor capabilities
+Before asking for proposals, Acme first gathers information about vendor capabilities
 
 ---
 
 ## ❓ What Is RFI (Request for Information)?
 
-A Request for Information (RFI) is:
-
-A document sent to vendors to understand their capabilities, experience, and approach, without asking for detailed pricing or full solution.
+A Request for Information (RFI) is a document sent to vendors to understand their capabilities, experience, and approach, without asking for detailed pricing or full solution.
 
 ---
 
@@ -41,9 +37,7 @@ A document sent to vendors to understand their capabilities, experience, and app
 
 ## 🛠 What Happens
 
-Acme sends RFI to multiple vendors (5–10 typically)
-
-Vendors respond with:
+Acme sends RFI to multiple vendors (5–10 typically). Vendors respond with:
 
 | Response Area |
 |---------------|

@@ -6,9 +6,7 @@ title: Stage 1
 
 ## What This Stage Is
 
-This is the point where Acme realizes that the current model is no longer acceptable.
-
-This recognition can be triggered by one or more of the following:
+This is the point where Acme realizes that the current model is no longer acceptable. This recognition can be triggered by one or more of the following:
 
 | Trigger |
 |--------|
@@ -48,9 +46,7 @@ Someone senior says:
 
 ## What Gets Produced
 
-At this stage, the output is usually not a formal document.
-
-It is more like:
+At this stage, the output is usually not a formal document. It is more like:
 
 | Output |
 |--------|
@@ -62,9 +58,7 @@ It is more like:
 
 ## What Can Go Wrong Here
 
-If this stage is weak, the company frames the problem too narrowly.
-
-For example:
+If this stage is weak, the company frames the problem too narrowly. For example:
 
 > “We need cloud”  
 
@@ -78,17 +72,13 @@ That difference is huge.
 
 # Stage 2: Initial Scoping and Leadership Alignment
 
-At this point, the organization moves from recognizing a problem to defining it more clearly.
-
-This is where many sourcing efforts fail quietly.
+At this point, the organization moves from recognizing a problem to defining it more clearly. This is where many sourcing efforts fail quietly.
 
 ---
 
 ## What This Stage Is
 
-Now Acme moves from “we have a problem” to “what kind of problem is it?”
-
-This is where they start aligning on what they are actually trying to solve.
+Now Acme moves from “we have a problem” to “what kind of problem is it?” This is where they start aligning on what they are actually trying to solve.
 
 | Possible Focus Areas |
 |---------------------|
@@ -154,9 +144,7 @@ Usually one or more of these:
 | Security | Wants control |
 | Operations | Wants stability |
 
-No one reconciles these into a common vision.
-
-If that happens, the Request for Proposal becomes confused and vendors respond to different interpretations.
+No one reconciles these into a common vision. If that happens, the Request for Proposal becomes confused and vendors respond to different interpretations.
 
 ---
 
@@ -165,8 +153,7 @@ If that happens, the Request for Proposal becomes confused and vendors respond t
 > The RFP is not where the process begins.  
 > It is where structured thinking becomes visible.
 
-If the thinking is weak, the RFP will be weak.  
-If the alignment is missing, the responses will be misaligned.
+If the thinking is weak, the RFP will be weak. If the alignment is missing, the responses will be misaligned.
 
 ---
 

@@ -23,7 +23,7 @@ The future-state vision should answer questions like:
 | What controls must be built in from the start? |
 | What business outcomes matter most? |
 
-In your Acme scenario, the future-state might include goals such as:
+In our Acme scenario, the future-state might include goals such as:
 
 | Future-State Goals |
 |-------------------|
