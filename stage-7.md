@@ -1,3 +1,7 @@
+---
+layout: default
+title: Stage 7
+---
 # 🏢 Stage 7 — RFP (Request for Proposal) Creation
 
 ## 🎯 Goal
