@@ -1,3 +1,7 @@
+---
+layout: default
+title: Stage 5
+---
 # 🏢 Stage 5 — Sourcing Strategy Definition
 
 ## 🎯 Goal
