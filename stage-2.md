@@ -85,3 +85,9 @@ Usually one or more of these:
 No one reconciles these into a common vision.
 
 If that happens, the Request for Proposal becomes confused and vendors respond to different interpretations.
+
+
+---
+
+➡️ Next: [Stage 3](stage-3.md)
+
