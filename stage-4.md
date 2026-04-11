@@ -1,3 +1,7 @@
+---
+layout: default
+title: Stage 4
+---
 # Stage 4: Future-State Vision
 
 Now Acme defines where it wants to go.
