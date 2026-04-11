@@ -5,7 +5,7 @@ title: About
 
 ## About Me
 
-I am an *Enterprise Cloud Transformation and Platform Architecture professional* with over 17 years of experience designing large-scale cloud platforms, infrastructure automation frameworks, and hybrid cloud architectures for global enterprises.
+My Name is **Rahul Bajaj** and I am an *Enterprise Cloud Transformation and Platform Architecture professional* with over 17 years of experience designing large-scale cloud platforms, infrastructure automation frameworks, enterprise networking solutions, and hybrid cloud architectures for global enterprises.
 
 My work focuses on bridging business objectives with scalable technical architectures and cloud operating models, helping organizations move from fragmented IT environments to structured, efficient, and modern platforms.
 
