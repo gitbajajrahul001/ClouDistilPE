@@ -14,7 +14,12 @@ title: Stage 5
 | Stage 5: Sourcing Strategy | [Open](stage-5.md) |
 | Stage 6: RFI | [Open](stage-6.md) |
 | Stage 7: RFP Creation | [Open](stage-7.md) |
-| Stage 8–12: Execution | [Open](stage-8-12.md) |
+| Stage 8: Internal Review & Approval | [Open](stage-8.md) |
+| Stage 9: RFP Release to Vendors | [Open](stage-9.md) |
+| Stage 10: Bidder Engagement | [Open](stage-10.md) |
+| Stage 11: Proposal Submission | [Open](stage-11.md) |
+| Stage 12: Evaluation | [Open](stage-12.md) |
+
 
 ---
 # 🏢 Stage 5 — Sourcing Strategy Definition
@@ -108,21 +113,21 @@ What kind of vendors are eligible:
 --- 
 # Now a Deeper Dive in each Section
 
-# 🧠 Sourcing Strategy Decisions — How Enterprises Actually Decide
+## 🧠 Sourcing Strategy Decisions — How Enterprises Actually Decide
 
 ---
 
-# 1️⃣ Decide Engagement Model
+### 1️⃣ Decide Engagement Model
 
-## ❓ What Is This?
+#### ❓ What Is This?
 
 How many vendors and how responsibilities are split.
 
 ---
 
-## 🔑 Options
+#### 🔑 Options
 
-### A. Single Vendor Model
+##### A. Single Vendor Model
 
 One vendor does:
 
@@ -134,7 +139,7 @@ One vendor does:
 
 ---
 
-### B. Multi-Vendor Model
+##### B. Multi-Vendor Model
 
 Different vendors for:
 
@@ -146,7 +151,7 @@ Different vendors for:
 
 ---
 
-## 🧠 Decision Framework
+#### 🧠 Decision Framework
 
 Ask 3 questions:
 
@@ -158,13 +163,13 @@ Ask 3 questions:
 
 ---
 
-## 🎯 For ACME (Your Scenario)
+#### 🎯 For ACME (Your Scenario)
 
 👉 Recommended:
 
 **Single Vendor (initially)**
 
-### Why:
+##### Why:
 
 | Reason |
 |--------|
@@ -176,17 +181,17 @@ Ask 3 questions:
 
 ---
 
-# 2️⃣ Decide Scope Packaging
+### 2️⃣ Decide Scope Packaging
 
-## ❓ What Is This?
+#### ❓ What Is This?
 
 How you bundle the work.
 
 ---
 
-## 🔑 Options
+#### 🔑 Options
 
-### A. End-to-End Transformation
+##### A. End-to-End Transformation
 
 One scope:
 
@@ -199,7 +204,7 @@ One scope:
 
 ---
 
-### B. Split Scope
+##### B. Split Scope
 
 Separate:
 
@@ -211,7 +216,7 @@ Separate:
 
 ---
 
-## 🧠 Decision Framework
+#### 🧠 Decision Framework
 
 | Question | Guidance |
 |----------|----------|
@@ -221,20 +226,20 @@ Separate:
 
 ---
 
-## 🎯 For ACME
+#### 🎯 For ACME
 
 👉 Recommended:
 
 **Phased End-to-End**
 
-### Meaning:
+##### Meaning:
 
 | Phase |
 |-------|
 | Start with: Assessment + migration |
 | Then: Platform + operations |
 
-### Why:
+##### Why:
 
 | Reason |
 |--------|
@@ -245,13 +250,13 @@ Separate:
 
 # 3️⃣ Decide Commercial Model
 
-## ❓ What Is This?
+#### ❓ What Is This?
 
 How vendors get paid.
 
 ---
 
-## 🔑 Options
+#### 🔑 Options
 
 | Model | Description | Good For |
 |------|------------|----------|
@@ -262,7 +267,7 @@ How vendors get paid.
 
 ---
 
-## 🧠 Decision Framework
+#### 🧠 Decision Framework
 
 | Question | Guidance |
 |----------|----------|
@@ -272,7 +277,7 @@ How vendors get paid.
 
 ---
 
-## 🎯 For ACME
+#### 🎯 For ACME
 
 👉 Recommended mix:
 
@@ -286,17 +291,17 @@ How vendors get paid.
 
 ---
 
-# 4️⃣ Define Vendor Qualification Criteria
+### 4️⃣ Define Vendor Qualification Criteria
 
-## ❓ What Is This?
+#### ❓ What Is This?
 
 Who is even allowed to bid?
 
 ---
 
-## 🧠 Think in 4 Dimensions
+#### 🧠 Think in 4 Dimensions
 
-### 1. Technical Capability
+##### 1. Technical Capability
 
 | Capability |
 |------------|
@@ -306,7 +311,7 @@ Who is even allowed to bid?
 
 ---
 
-### 2. Scale Experience
+##### 2. Scale Experience
 
 | Criteria |
 |----------|
@@ -315,7 +320,7 @@ Who is even allowed to bid?
 
 ---
 
-### 3. Delivery Capability
+##### 3. Delivery Capability
 
 | Capability |
 |------------|
@@ -325,7 +330,7 @@ Who is even allowed to bid?
 
 ---
 
-### 4. Financial & Stability
+##### 4. Financial & Stability
 
 | Criteria |
 |----------|
@@ -334,7 +339,7 @@ Who is even allowed to bid?
 
 ---
 
-## 🎯 For ACME
+#### 🎯 For ACME
 
 Minimum criteria:
 
@@ -348,7 +353,7 @@ Minimum criteria:
 
 ---
 
-# 🧩 Is There a Standard Pattern?
+### 🧩 Is There a Standard Pattern?
 
 👉 YES — here’s the simplified pattern used in real enterprises:
 
@@ -361,7 +366,7 @@ Minimum criteria:
 
 ---
 
-# ⚡ Key Insight (Very Important)
+### ⚡ Key Insight (Very Important)
 
 These decisions are not independent.
 
@@ -376,7 +381,7 @@ They are linked:
 
 ---
 
-# 🧠 How You Should Think Going Forward
+### 🧠 How You Should Think Going Forward
 
 Whenever you face such decisions, ask:
 
