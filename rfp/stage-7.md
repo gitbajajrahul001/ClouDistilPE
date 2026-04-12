@@ -134,5 +134,5 @@ How Acme will evaluate vendors:
 
 ---
 
-[⬅ Back to Series Home](index.md) | [Next: Last Stage ➡](stage-8-12.md)
+[⬅ Back to Series Home](index.md) | [Next: The Last Leg ➡](stage-8-12.md)
 
