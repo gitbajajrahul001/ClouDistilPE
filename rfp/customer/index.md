@@ -3,7 +3,7 @@ layout: default
 title: Inside the RFP (Customer)
 ---
 
-## 📚 Explore the RFP Stages
+## 📚 Explore the RFP Stages at Customer Side
 
 I have listed the main RFP stages(including pre/post) that are typically followed in a organization. Depending upon the complexity or scale of the RFP, these stages may collapse or expand as necessary. The objective here is to establish basic level of understanding who is currently struggling to find all this information at once place.
 
