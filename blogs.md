@@ -1,17 +1,16 @@
 ---
 layout: default
-title: Blogs
+title: Series
 ---
 
-# 📚 Blog Series
+# 📚 Series
 
-A collection of structured series across enterprise technology, architecture, and transformation.
+A collection of structured, real-world guides across enterprise architecture, cloud transformation, and sourcing.
 
 ---
 
 ## 🏢 RFP Journey
-
-### 🔄 Perspectives
+Understanding how enterprises define, structure, and execute RFPs—from both customer and provider perspectives.
 
 - [Inside the RFP — Customer View](rfp/customer)
 - [Inside the RFP — Provider View](rfp/provider)
@@ -19,12 +18,14 @@ A collection of structured series across enterprise technology, architecture, an
 ---
 
 ## ☁️ Cloud Transformation
+Practical approaches to cloud migration, modernization, and operating models.
 
 - [Migration Strategies: On-Prem to Cloud](migration)
 
 ---
 
 ## 🏗️ Architecture
+Designing scalable, resilient, and enterprise-grade platforms.
 
 - [Building Cloud at Scale](architecture)
 - [Multi-Cloud Architecture](architecture)
