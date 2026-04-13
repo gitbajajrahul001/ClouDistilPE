@@ -17,7 +17,7 @@ This series will walk through each phase of the journey, connecting strategy, ar
 
 ## 🧭 Journey Overview
 
-| Stage | Description | Link |
+| Phase | Description | Link |
 |------|-------------|------|
 | Strategy Phase | Defining business goals, risk, compliance, and readiness | [Open](strategy.md) |
 
