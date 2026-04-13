@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Lucid Stack
+# ClouDistil.pe
 
 ### **Breaking Down Enterprise Cloud, Platforms, and Automation**
 
