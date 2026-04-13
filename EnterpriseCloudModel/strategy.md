@@ -1,14 +1,12 @@
+---
+layout: default
+title: Strategy
+---
 # Azure CAF – Strategy Phase (Beyond Theory)
 
 ## 🧭 What Strategy Really Means
 
-Cloud strategy is often misunderstood as a technical decision.
-
-It is not about adopting Azure or any cloud platform.
-
-> Cloud strategy is about defining business direction and enabling it through cloud capabilities.
-
-Every decision that follows in cloud adoption should trace back to a clear business objective.
+Cloud strategy is often misunderstood as a technical decision. It is not about adopting Azure or any cloud platform. Cloud strategy is about defining business direction and enabling it through cloud capabilities. Every decision that follows in cloud adoption should trace back to a clear business objective.
 
 ---
 
@@ -22,6 +20,7 @@ Start by identifying the primary drivers for cloud adoption:
 - Faster time to market  
 - Innovation (AI, analytics, digital transformation)  
 - Regulatory compliance  
+- Geographical Presence (to accelerate product reach)
 
 Different goals lead to different architectural decisions.
 
@@ -152,3 +151,5 @@ Strategy → Plan → Ready → Adopt
 A weak strategy leads to misaligned architecture, inefficient migration, and increased costs.
 
 ---
+
+[⬅ Back to Series Home](index.md) | [Next: Plan ➡](plan.md)
