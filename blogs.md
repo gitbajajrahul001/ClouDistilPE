@@ -25,7 +25,7 @@ A collection of structured, real-world guides across enterprise architecture, cl
 <h3>☁️ Cloud Adoption</h3>
 <p>Practical approaches to cloud adoption.</p>
 <ul>
-<li><a href="cloud-adoption-blueprint>Cloud Adoption Blueprint</a></li>
+<li><a href="cloud-adoption-blueprint">Cloud Adoption Blueprint</a></li>
 </ul>
 </div>
 
