@@ -26,9 +26,7 @@ Cloud strategy is built on a set of interconnected pillars that collectively sha
 
 ### 🔹 1. Business Goals
 
-In practice, most enterprises operate with multiple goals simultaneously, requiring trade-offs between cost, agility, and compliance.
-
-Start by identifying the primary drivers for cloud adoption:
+In practice, multiple business goals often conflict with each other — for example, cost optimization vs innovation — and architecture becomes a series of trade-offs rather than clear decisions. Start by identifying the primary drivers for cloud adoption:
 
 - Cost optimization  
 - Faster time to market  
@@ -87,7 +85,7 @@ These requirements act as constraints that shape cloud architecture decisions.
 
 ### 🔹 4. Risk Appetite
 
-Risk appetite is often driven by the financial and reputational impact of failure.
+Risk appetite directly impacts architecture decisions. In many cases, this is not explicitly defined, which leads to over-engineered or under-protected solutions.
 
 Key questions include:
 
@@ -120,7 +118,7 @@ These metrics drive architectural decisions.
 | Low RPO    | Real-time data replication      |
 | High tolerance | Backup-based recovery     |
 
-> RTO and RPO are architectural drivers, not just operational metrics. These requirements must be validated through testing, not just defined on paper.
+> A common mistake is defining RTO/RPO on paper without validating them through actual recovery testing, which leads to false confidence in resilience.
 
 ---
 
@@ -140,7 +138,7 @@ Successful cloud adoption depends heavily on people and processes. Misalignment 
 - Openness to automation  
 - Adaptability to change  
 
-> This is often underestimated, but in practice, people and processes tend to be the biggest challenges in cloud transformation.
+> One key realization is that cloud transformations are often delayed not due to technology limitations, but due to gaps in skills and resistance to change within teams.
 
 ---
 
