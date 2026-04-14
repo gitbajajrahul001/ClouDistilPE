@@ -1,33 +1,31 @@
 ---
 layout: default
-title: Cloud Adoption Blueprint
+title: Architecting Enterprise Cloud Adoption
 ---
 
-## 📚 Cloud Adoption Blueprint
+# Strategy → Plan → Ready → Adopt
 
-This blog series aims to build an **architect’s mindset** for enterprise cloud adoption — starting from the moment an organization begins to envision its journey to the cloud.
+## 📚 Architecting Enterprise Cloud Adoption
 
-While the framework is inspired by Azure Cloud Adoption Framework (CAF), the principles discussed are intentionally kept **cloud-agnostic** wherever possible. The goal is to focus on foundational thinking and decision-making, which remain consistent across cloud platforms.
+This blog series aims to build an **architect’s mindset** for enterprise cloud adoption — starting from the moment an organization begins its cloud journey.
 
-Cloud providers may differ in services and implementation details, but the core execution flow, architectural considerations, and strategic trade-offs form a common foundation that applies universally.
+While inspired by the Azure Cloud Adoption Framework (CAF), the principles remain **cloud-agnostic**, focusing on foundational thinking and decision-making that apply across platforms. Cloud providers may differ in services, but the **core execution flow, architectural considerations, and trade-offs** remain consistent.
 
-This series will walk through each phase of the journey, connecting strategy, architecture, governance, and operations into a cohesive model.
+Each phase of the journey is explored in two layers:
+- **Foundations** — clarifying core concepts  
+- **Consulting Approach** — applying them in real-world engagements  
+
+Organizations often rely on external consulting partners to shape their cloud strategy. This series bridges that gap by combining structured understanding with insights into how such transformations are approached and executed in practice.
 
 ---
+
 
 ## 🧭 Journey Overview
 
 | Phase | Description | Link |
 |------|-------------|------|
-| Strategy Phase | Defining business goals, risk, compliance, and readiness | [Open](strategy.md) |
+| Strategy Phase – Foundations | Core concepts: business goals, risk, compliance, and organizational readiness | [Open](strategy-1.md) |
+| Strategy Phase – Consulting Approach | Applying strategy in real-world engagements and client discovery | [Open](strategy-2.md) |
 
----
-
-## 🎯 What to Expect
-
-- A **practical, real-world perspective** beyond documentation  
-- Focus on **decision-making and trade-offs**, not just concepts  
-- Progressive layering from **strategy → architecture → operations**  
-- Insights aligned with **enterprise-scale transformations**
 
 ---
