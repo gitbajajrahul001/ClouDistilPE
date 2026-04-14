@@ -237,7 +237,7 @@ While the above sections outline the questions and approach, in practice these a
 **Objective:** Highlight inconsistencies and missing information
 
 
-#### 📄 Workshop Deliverables
+#### 📄 **Workshop Deliverables**
 
 After the workshop, the following should be documented:
 
