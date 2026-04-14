@@ -79,7 +79,6 @@ This determines how robust the architecture needs to be.
 |------|-------------|
 | Availability | What level of availability is required? |
 | Recovery | What are the expected RTO and RPO targets? |
-| Backup | When was the last successful backup restore? |
 | DR | Is disaster recovery tested regularly? |
 
 > Many organizations define recovery expectations but do not validate them through testing.
@@ -166,18 +165,13 @@ The following table provides a consolidated and structured set of questions acro
 | Governance & Cost | How is access controlled? How is cost tracked and optimized? Who is accountable for spend? Are governance standards (tagging, policies) defined? |
 
 ---
-
-**While the above sections outline the questions and approach, in practice these are executed through structured workshops with stakeholders.**
-
 ## 🧪 Strategy Discovery Workshop (How This Is Executed)
 
-## 🧪 Strategy Discovery Workshop – Agenda & Flow
-
-The Strategy phase is typically executed through structured workshops with key stakeholders. The goal is to move from **high-level intent to structured clarity**.
+While the above sections outline the questions and approach, in practice these are executed through structured workshops with stakeholders. The Strategy phase is typically executed through structured workshops with key stakeholders. The goal is to move from **high-level intent to structured clarity**.
 
 ---
 
-## 🧭 Workshop Objectives
+### 🧭 Workshop Objectives
 
 - Understand business drivers for cloud adoption  
 - Identify application landscape and dependencies  
@@ -188,7 +182,7 @@ The Strategy phase is typically executed through structured workshops with key s
 
 ---
 
-## 👥 Participants
+### 👥 Participants
 
 | Role | Purpose |
 |------|--------|
@@ -200,143 +194,58 @@ The Strategy phase is typically executed through structured workshops with key s
 
 ---
 
-## ⏱️ Suggested Duration
+### ⏱️ Suggested Duration & Flow
 
 - Total: **2–4 hours**
 - Can be split into multiple focused sessions if required
 
----
-
-## 🧭 Workshop Flow
-
----
-
-### 🔷 1. Introduction & Context Setting (15–20 min)
+#### 🔷 1. Introduction & Context Setting (15–20 min)
 
 **Objective:** Align stakeholders on purpose and expectations
-
-**Discussion Points:**
-- Workshop objectives and scope  
-- Overview of cloud adoption journey  
-- Expected outcomes  
-
-> Focus on setting context, not deep technical discussions.
-
 ---
 
-### 🔷 2. Business Drivers & Objectives (30–40 min)
+#### 🔷 2. Business Drivers & Objectives (30–40 min)
 
 **Objective:** Understand *why* cloud adoption is being considered
 
-**Guiding Questions:**
-- What are the key business drivers?  
-- What problems are we trying to solve?  
-- What does success look like in 6–12 months?  
-- Are there timelines or external mandates?  
-
-**Output:**
-- Defined business goals  
-- Success criteria  
-
 ---
 
-### 🔷 3. Application Landscape Discovery (40–50 min)
+#### 🔷 3. Application Landscape Discovery (40–50 min)
 
 **Objective:** Understand *what* is being moved
-
-**Guiding Questions:**
-- Do we have a complete application inventory?  
-- Which applications are business-critical?  
-- Are dependencies documented?  
-- Which systems are unstable or high-risk?  
-
-**Output:**
-- High-level application inventory  
-- Initial criticality classification  
-- Identified dependency gaps  
-
 ---
 
 ### 🔷 4. Compliance & Constraints (30–40 min)
 
 **Objective:** Identify non-negotiable requirements
 
-**Guiding Questions:**
-- What regulatory frameworks apply?  
-- Are there data residency requirements?  
-- Are there workloads restricted from cloud?  
-- What audit requirements exist?  
-
-**Output:**
-- Compliance requirements  
-- Identified constraints  
-
 ---
 
-### 🔷 5. Risk, Resilience & Continuity (30–40 min)
+#### 🔷 5. Risk, Resilience & Continuity (30–40 min)
 
 **Objective:** Define availability and recovery expectations
 
-**Guiding Questions:**
-- What level of availability is required?  
-- What are the RTO and RPO targets?  
-- Are backups tested regularly?  
-- Is DR tested and validated?  
-
-**Output:**
-- Initial RTO/RPO expectations  
-- Identified gaps in resilience  
-
 ---
 
-### 🔷 6. Organization & Operating Model (30–40 min)
+#### 🔷 6. Organization & Operating Model (30–40 min)
 
 **Objective:** Understand *who* will operate the cloud
 
-**Guiding Questions:**
-- How are teams structured today?  
-- Who owns infrastructure, security, and applications?  
-- What skills exist internally?  
-- Who will operate the environment post-migration?  
-
-**Output:**
-- Org structure overview  
-- Skills and readiness assessment  
-
 ---
 
-### 🔷 7. Governance & Cost (20–30 min)
+#### 🔷 7. Governance & Cost (20–30 min)
 
 **Objective:** Establish control mechanisms early
 
-**Guiding Questions:**
-- How is access currently managed?  
-- How is IT cost tracked and controlled?  
-- Who is accountable for spend?  
-- Are governance standards defined?  
-
-**Output:**
-- Governance maturity view  
-- Cost management insights  
-
 ---
 
-### 🔷 8. Gap Identification & Alignment (20–30 min)
+#### 🔷 8. Gap Identification & Alignment (20–30 min)
 
 **Objective:** Highlight inconsistencies and missing information
 
-**Activities:**
-- Identify missing or unclear inputs  
-- Highlight conflicting expectations  
-- Align stakeholders on next steps  
-
-**Output:**
-- Gap summary  
-- Risk areas  
-
 ---
 
-## 📄 Workshop Deliverables
+#### 📄 Workshop Deliverables
 
 After the workshop, the following should be documented:
 
@@ -350,7 +259,7 @@ After the workshop, the following should be documented:
 
 ---
 
-## ⚠️ Key Considerations
+### ⚠️ Key Considerations
 
 - Avoid deep technical dives in initial sessions  
 - Focus on structured discussions, not perfect answers  
@@ -359,10 +268,10 @@ After the workshop, the following should be documented:
 
 ---
 
-## 🧠 Key Insight
+### 🧠 Consulting Insight
 
 > A successful strategy workshop does not aim to collect perfect information, but to transform unclear inputs into structured direction.
 
 ---
 
-[⬅ Back to Series Home](index.md) | [Next: Plan-Foundations ➡](plan.md)
+[⬅ Back to Series Home](index.md) | [Next: Plan-Foundations ➡](plan-1.md)
