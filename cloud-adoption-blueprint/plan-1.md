@@ -183,7 +183,7 @@ The output of the Plan phase directly feeds into **Ready Phase (Landing Zone Des
 
 The Plan phase transforms strategy into a structured execution roadmap.
 
-### **Key Outputs:**
+### Key Outputs:
 
 - Application inventory and classification  
 - Migration strategy (6Rs)  
@@ -192,18 +192,18 @@ The Plan phase transforms strategy into a structured execution roadmap.
 - Operating model definition  
 - Cost and governance considerations  
 
-### 🧠 **Key Insight**
+### 🧠 Key Insight
 
-> Planning is not about creating a perfect roadmap — it is about reducing uncertainty and enabling controlled execution.
+Planning is not about creating a perfect roadmap — it is about reducing uncertainty and enabling controlled execution.
 
-## 🔍 **Closing Thoughts**
+## 🔍 Closing Thoughts
 
 The effectiveness of cloud adoption is heavily influenced by the quality of planning. 
 
 A well-structured Plan phase ensures that:
-- migration is predictable  
-- risks are minimized  
-- execution is aligned with business priorities  
+- Migration is predictable  
+- Risks are minimized  
+- Execution is aligned with business priorities  
 
 ---
-[⬅ Back to Strategy](strategy-1.md) | [Next: Ready Phase ➡](ready.md)
+[⬅ Back to Strategy](strategy-1.md) | [Next: Plan-Consulting-Approach ➡](plan-2.md)

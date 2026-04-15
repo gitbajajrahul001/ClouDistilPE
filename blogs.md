@@ -24,7 +24,7 @@ These are not theoretical guides, but reflections on how these domains are appro
 </div>
 
 <div class="card">
-<h3><strong>🔵 ☁️ Cloud Adoption</strong></h3>
+<h3><strong>☁️ Cloud Adoption</strong></h3>
 <p>A structured view of cloud adoption, combining foundational frameworks with how they translate into real consulting engagements and execution strategies.</p>
 
 <ul>
