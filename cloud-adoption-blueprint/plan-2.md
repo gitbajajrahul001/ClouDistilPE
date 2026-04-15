@@ -5,87 +5,96 @@ title: Plan|Consulting Approach
 
 # Plan Phase – Consulting Approach
 
-The Plan phase is where strategy is translated into a **structured execution roadmap**. In real-world engagements, this phase is less about gathering information and more about:
+The Plan phase is where strategy is translated into a **structured execution roadmap**. Unlike the Strategy phase, which focuses on understanding, the Plan phase is where:
 
-- Making informed decisions  
-- Prioritizing workloads  
-- Sequencing execution  
-- Aligning stakeholders  
+- Decisions are made  
+- Trade-offs are evaluated  
+- Execution is structured  
 
 ---
 
 ## 🧭 How the Plan Phase is Approached
 
-Cloud planning is built on a set of interconnected pillars that convert strategic intent into structured, sequenced, and actionable execution.
+Cloud planning is built on a set of interconnected pillars that convert strategic intent into structured, sequenced, and actionable execution. In practice, this phase is iterative and often requires **refinement of assumptions made during strategy discussions**.
 
 ---
 
 ## 🔷 1. Application Assessment & Classification
 
-The first step is to move from a high-level inventory to a **decision-ready application view**.
-
-### **Key Focus Areas:**
-- Business criticality  
-- Technical complexity  
-- Compliance sensitivity  
-- Dependency footprint  
-
+Application assessment moves beyond inventory and into **decision-making**. Instead of asking what exists, the focus shifts to:
+- What should move first  
+- What carries the highest risk  
+- What delivers the most business value  
 
 ### **Common Challenge**
 
-- Incomplete application inventory  
-- Missing ownership  
-- Undefined dependencies  
+- Applications marked as “critical” without clear criteria  
+- Lack of ownership or accountability  
+- Inconsistent classification across teams  
 
 ### 🧠 Insight
 
-Applications are often initially marked as “critical” by stakeholders. Effective planning requires **objective classification based on business impact and risk**.
+While classification models are defined in the Foundations phase, in practice, they are often **overridden by stakeholder perception**. The role here is to:
+
+- Introduce objective criteria  
+- Normalize classification  
+- Enable prioritization  
 
 ---
 
-## 🔷 2. Rationalization & Migration Strategy (6Rs in Practice)
+## 🔷 2. Rationalization & Migration Strategy
 
-Each application is mapped to a **practical migration path**, not just a theoretical category.
+Application rationalization follows the 6Rs model (see Plan Phase – Foundations), but in practice, these decisions are rarely straightforward.
 
 ### **Key Considerations:**
 
-- Time-to-migrate vs business urgency  
-- Cost vs long-term value  
-- Risk of change  
-- Technical feasibility  
+- Speed of migration vs long-term optimization  
+- Business pressure vs technical feasibility  
+- Cost constraints vs architectural goals  
 
+### ⚠️ Common Challenge
+
+- Preference for rehosting due to timelines  
+- Resistance to refactoring due to perceived risk  
+- Misalignment between business and technical teams  
 
 ### 🧠 Insight
 
-The same application may have multiple valid strategies. The final decision is often a **trade-off between speed, cost, and future state goals**.
+The selected strategy is often a **compromise**, not an ideal choice. The consultant’s role is to:
+
+- Make trade-offs explicit  
+- Align decisions with business priorities  
+- Avoid short-term decisions that create long-term inefficiencies  
 
 ---
 
 ## 🔷 3. Dependency Mapping & Validation
 
-This is one of the most critical and often underestimated steps.
+Dependency mapping is rarely complete at the start of planning.
 
 ### **Key Questions:**
 
-- What systems interact with each other?  
-- Are there latency-sensitive integrations?  
-- Are there external or on-prem dependencies?  
+- Which systems cannot be decoupled?  
+- What integrations are latency-sensitive?  
+- What dependencies exist outside the known landscape?  
 
-
-### **Common Challenge**
+### ⚠️ Common Challenge
 
 - Hidden dependencies discovered during migration  
-- Lack of real-time visibility into integrations  
+- Over-reliance on outdated documentation  
 
 ### 🧠 Insight
 
-Dependency mapping is rarely complete upfront. It must be **iteratively refined during planning and execution**.
+Dependency mapping should be treated as an **ongoing activity**, not a one-time exercise. A practical approach includes:
+
+- Validating dependencies during early migration waves  
+- Refining the model iteratively  
 
 ---
 
 ## 🔷 4. Migration Waves & Sequencing
 
-Execution is structured into **controlled waves** to manage risk.
+Migration waves are used to structure execution and manage risk.
 
 ### **Typical Wave Approach:**
 
@@ -95,51 +104,57 @@ Execution is structured into **controlled waves** to manage risk.
 | Wave 2 | Medium complexity applications |
 | Wave 3 | Business-critical systems |
 
+### ⚠️ Common Challenge
+
+- Pressure to migrate critical systems early  
+- Lack of patience for phased execution  
 
 ### 🧠 Insight
 
-Migration planning is fundamentally about **risk sequencing**, not just technical execution.
+Wave planning is not just about grouping applications — it is about:
+
+- Building confidence  
+- Validating assumptions  
+- Reducing risk progressively  
 
 ---
 
 ## 🔷 5. Operating Model Alignment
 
-The operating model defined in Strategy is now translated into **practical implementation**.
-
-### **Common Models:**
-
-- Centralized  
-- Shared (Platform-driven)  
-- Federated  
+Operating model decisions begin in Strategy, but are **tested in the Plan phase**.
 
 ### **Key Considerations:**
 
-- Ownership boundaries  
-- Platform vs application responsibilities  
-- Governance enforcement points  
+- Who owns platform vs workloads  
+- Where governance is enforced  
+- How responsibilities are distributed  
+
+### ⚠️ Common Challenge
+
+- Undefined ownership post-migration  
+- Conflicts between central and application teams  
 
 ### 🧠 Insight
 
-Operating model decisions directly influence:
+Operating model gaps often surface during planning, not strategy.
 
-- Speed of adoption  
-- Governance effectiveness  
-- Long-term scalability  
+This is the stage where:
+
+- Responsibilities must be clarified  
+- Operating boundaries must be enforced  
 
 ---
 
 ## 🔷 6. Environment & Landing Zone Planning
 
-Planning defines the requirements for the **target cloud structure**.
+Planning defines the requirements for the target cloud structure.
 
-### **Defines:**
+Rather than designing the landing zone, this phase focuses on:
+- Identifying required environments  
+- Defining isolation boundaries  
+- Aligning with governance needs  
 
-- Subscription strategy  
-- Environment separation (Dev / Test / Prod)  
-- Network topology (Hub-Spoke, etc.)  
-- Identity and access model  
-
-### **Connection**
+### 🔗 Connection
 
 These inputs directly drive the **Ready Phase (Landing Zone Design)**.
 
@@ -147,21 +162,21 @@ These inputs directly drive the **Ready Phase (Landing Zone Design)**.
 
 ## 🔷 7. Cost & Financial Planning
 
-Cloud introduces continuous cost dynamics that must be planned upfront.
+Cost planning becomes more concrete during this phase.
 
 ### **Key Areas:**
-- Budget estimation  
-- Cost allocation model  
-- Tagging strategy  
-- Optimization approach  
+- Budget alignment with migration waves  
+- Cost visibility across teams  
+- Early optimization opportunities  
+
+### ⚠️ Common Challenge
+
+- Underestimation of initial cloud cost  
+- Lack of cost ownership  
 
 ### 🧠 Insight
 
-Cost planning is not a finance-only activity — it influences:
-
-- Architecture choices  
-- Migration sequencing  
-- Service selection  
+Cost discussions shift from estimation to **accountability** during planning.
 
 ---
 
@@ -186,7 +201,7 @@ Planning rarely happens with complete clarity.
 
 The Plan phase should produce:
 
-- Application classification and prioritization  
+- Prioritized application list  
 - Defined migration strategy (6Rs mapping)  
 - Dependency-aware migration plan  
 - Migration wave sequencing  
@@ -197,18 +212,16 @@ The Plan phase should produce:
 
 ### 🧠 Key Insight
 
-Planning is not about creating a perfect roadmap — it is about reducing uncertainty and enabling controlled execution.
+Planning is not about creating a perfect roadmap — it is about **enabling informed decisions under uncertainty**.
 
 
 ### 🔍 Closing Thoughts
 
-The Plan phase is where cloud adoption becomes tangible.
-
-A well-executed planning phase ensures:
-- Predictable migration  
-- Minimized risk  
-- Alignment between business and technology  
+The Plan phase is where cloud adoption becomes actionable. It is also where:
+- Assumptions are challenged  
+- Trade-offs are made  
+- Execution truly begins  
 
 ---
 
-[⬅ Back to Plan Foundations](plan-1.md) | [Next: Ready Phase ➡](ready-1.md)
+[⬅ Back to Plan-Foundations ](plan-1.md) | [Next: Ready Phase-Foundations ➡](ready-1.md)
