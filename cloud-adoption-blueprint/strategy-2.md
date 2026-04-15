@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Strategy Phase – Consulting Approach
+title: Strategy|Consulting Approach
 ---
 
 # Strategy Phase – Consulting Approach

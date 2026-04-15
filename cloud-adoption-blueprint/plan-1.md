@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Plan-Foundations
+title: Plan|Foundations
 ---
 
 # Plan Phase – Structuring the Path to Cloud Adoption

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Strategy Phase-Foundations
+title: Strategy|Foundations
 ---
 
 This section captures my understanding of the Strategy phase from both structured frameworks and real-world perspectives, as I build a foundational approach to enterprise cloud adoption.
