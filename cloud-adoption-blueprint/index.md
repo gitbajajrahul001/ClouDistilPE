@@ -26,6 +26,8 @@ Organizations often rely on external consulting partners to shape their cloud st
 |------|-------------|------|
 | Strategy Phase – Foundations | Core concepts: business goals, risk, compliance, and organizational readiness | [Open](strategy-1.md) |
 | Strategy Phase – Consulting Approach | Applying strategy in real-world engagements and client discovery | [Open](strategy-2.md) |
+| Plan Phase – Foundations | Structuring the digital estate, application strategy (6Rs), dependencies, and migration sequencing | [Open](plan-1.md) |
+| Plan Phase – Consulting Approach | Translating strategy into execution through assessments, prioritization, and migration planning | [Open](plan-2.md) |
 
 
 ---
