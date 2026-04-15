@@ -11,22 +11,85 @@ In most cases, organizations do not come with fully defined answers. The role of
 
 ---
 
-## 🧭 Approach to Strategy Discovery
+## 🔹 When Does the Strategy Phase Begin?
 
-A structured approach is essential to avoid fragmented understanding. Instead of asking isolated questions, discussions should be guided across key themes:
-
-- Business & Objectives  
-- Application Landscape  
-- Compliance & Constraints  
-- Risk & Continuity  
-- Organization & Operating Model  
-- Governance & Cost  
-
-Each layer builds on the previous one, forming a complete picture of the enterprise.
+The Strategy phase is not confined to a single stage of engagement. It evolves across the lifecycle of a cloud adoption initiative, gaining clarity and depth over time.
 
 ---
 
-## 🔷 1. Business & Objectives
+### 🔸 Pre-RFP (Internal or Early Thinking)
+
+In some organizations, an initial strategy may already exist, typically defined by:
+
+- Enterprise architecture teams  
+- Internal strategy groups  
+- Previous consulting engagements  
+
+However, this is often **partial, high-level, or unvalidated**.
+
+---
+
+### 🔸 RFP / Pre-Sales Phase
+
+During the RFP stage, consulting partners begin to **shape the strategy** through:
+
+- High-level discovery discussions  
+- Understanding business drivers and constraints  
+- Interpreting requirements and proposing direction  
+
+> In practice, the RFP process is not just evaluation — it is often where strategy begins to take form.
+
+---
+
+### 🔸 Post-Deal (Discovery & Design Phase)
+
+The Strategy phase is **formally executed after the deal is signed**, typically during:
+
+- Discovery workshops  
+- Due diligence (DD) sessions  
+- Design discussions  
+
+This is where:
+
+- Assumptions made during RFP are validated  
+- Gaps and inconsistencies are identified  
+- Business intent is translated into structured direction  
+
+---
+
+### 🔁 Strategy as a Progressive Refinement
+
+Strategy should be viewed as an iterative process:
+
+Initial Idea → Shaped during RFP → Validated in Discovery → Refined during Execution
+
+---
+
+### 🔸 Real-World Consideration
+
+What is defined during the RFP stage is often:
+
+- Incomplete  
+- Based on assumptions  
+- Subject to change after deeper analysis  
+
+For example:
+
+- An initial assumption to migrate all workloads may evolve after discovery reveals dependencies, constraints, or technical limitations.
+
+---
+
+### 🧠 Key Insight
+
+> Strategy is not created once — it is continuously refined as clarity improves.
+
+---
+
+## 🧭 Approach to Strategy Discovery
+
+A structured approach is essential to avoid fragmented understanding. Instead of asking isolated questions, discussions should be guided across key themes. Each layer builds on the previous one, forming a complete picture of the enterprise.
+
+### 🔷 1. Business & Objectives
 
 Focus on understanding *why* the organization is considering cloud adoption.
 
@@ -41,7 +104,7 @@ Focus on understanding *why* the organization is considering cloud adoption.
 
 ---
 
-## 🔷 2. Application Landscape
+### 🔷 2. Application Landscape
 
 Understanding the current estate is critical before any decision is made.
 
@@ -56,7 +119,7 @@ Understanding the current estate is critical before any decision is made.
 
 ---
 
-## 🔷 3. Compliance & Constraints
+### 🔷 3. Compliance & Constraints
 
 This layer defines what is non-negotiable.
 
@@ -71,7 +134,7 @@ This layer defines what is non-negotiable.
 
 ---
 
-## 🔷 4. Risk, Resilience & Continuity
+### 🔷 4. Risk, Resilience & Continuity
 
 This determines how robust the architecture needs to be.
 
@@ -85,7 +148,7 @@ This determines how robust the architecture needs to be.
 
 ---
 
-## 🔷 5. Organization & Operating Model
+### 🔷 5. Organization & Operating Model
 
 Cloud adoption success depends on who operates it.
 
@@ -100,7 +163,7 @@ Cloud adoption success depends on who operates it.
 
 ---
 
-## 🔷 6. Governance & Cost
+### 🔷 6. Governance & Cost
 
 Without early governance, cloud environments become difficult to control.
 
@@ -167,7 +230,8 @@ The following table provides a consolidated and structured set of questions acro
 ---
 ## 🧪 Strategy Discovery Workshop (How This Is Executed)
 
-While the above sections outline the questions and approach, in practice these are executed through structured workshops with stakeholders. The Strategy phase is typically executed through structured workshops with key stakeholders. The goal is to move from **high-level intent to structured clarity**.
+While the above sections outline the questions and approach, in practice these are executed through structured workshops with stakeholders. The Strategy phase is typically executed through structured workshops with key stakeholders. The goal is to move from **high-level intent to structured clarity**, as this is typically how the Strategy phase is executed in real client engagements.
+
 
 ---
 
