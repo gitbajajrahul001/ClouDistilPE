@@ -28,6 +28,6 @@ These are not theoretical guides, but reflections on how these domains are appro
 <p>A structured view of cloud adoption, combining foundational frameworks with how they translate into real consulting engagements and execution strategies.</p>
 
 <ul>
-<li><a href="cloud-adoption-blueprint">Cloud Adoption Framework</a></li>
+<li><a href="cloud-adoption-blueprint">Architecting Enterprise Cloud Adoption</a></li>
 </ul>
 </div>
