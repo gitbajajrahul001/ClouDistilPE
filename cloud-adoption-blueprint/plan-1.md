@@ -9,14 +9,14 @@ This section captures my understanding of the Plan phase by translating strategi
 
 ## 🧭 What the Plan Phase Really Means
 
-If the Strategy phase defines *why* and *what*, the Plan phase defines **how the organization will approach cloud adoption in a structured and controlled manner**
+If the Strategy phase defines *why* and *what*, the Plan phase defines **how the organization will approach cloud adoption in a structured and controlled manner**.
 
 This phase translates high-level intent into:
 - Workload-level decisions  
 - Sequenced execution  
 - Defined operating model  
 
-
+---
 ## 🧱 Core Pillars of the Plan Phase
 
 Cloud planning is built on a set of interconnected pillars that translate strategy into a structured and executable adoption roadmap.
@@ -25,7 +25,8 @@ Cloud planning is built on a set of interconnected pillars that translate strate
 
 Before planning migration, it is essential to understand the current landscape.
 
-#### Key Focus Areas:
+#### 🎯 Key Focus Areas:
+
 - Application inventory  
 - Infrastructure footprint  
 - Dependencies between systems  
@@ -33,11 +34,11 @@ Before planning migration, it is essential to understand the current landscape.
 
 #### 🧠 Insight
 
-In most enterprises, documentation is incomplete or outdated.  
-Actual understanding often comes from:
-- stakeholder discussions  
-- operational insights  
-- monitoring data  
+In most enterprises, documentation is incomplete or outdated. Actual understanding often comes from:
+
+- Stakeholder discussions  
+- Operational insights  
+- Monitoring data  
 
 ---
 
@@ -45,7 +46,7 @@ Actual understanding often comes from:
 
 Each application must be evaluated and mapped to a migration approach.
 
-#### Key Focus Areas:
+#### ⚙️ Key Considerations:
 
 | Strategy | Description |
 |----------|------------|
@@ -71,7 +72,8 @@ The 6Rs are not purely technical decisions — they are influenced by:
 
 Understanding dependencies is essential before sequencing migration.
 
-#### Key Questions:
+#### ❓ Key Questions:
+
 - What systems communicate with each other?  
 - Are there latency-sensitive integrations?  
 - Are there on-prem dependencies?  
@@ -90,7 +92,7 @@ Applications are often migrated without fully understanding dependencies, leadin
 
 Cloud adoption is not a one-time activity — it is executed in phases.
 
-#### Typical Wave Approach:
+#### 🔄 Typical Wave Approach:
 
 | Wave | Type |
 |------|------|
@@ -108,7 +110,7 @@ Migration planning is fundamentally about **risk sequencing**, not just executio
 
 This defines how cloud environments will be structured and managed.
 
-#### Common Models:
+#### 🏗️ Common Models:
 
 | Model | Description |
 |------|-------------|
@@ -132,7 +134,8 @@ The operating model should align with organizational maturity.
 
 Planning must account for how teams will function post-adoption.
 
-#### Key Considerations:
+#### ⚙️ Key Considerations:
+
 - Role definitions  
 - Ownership boundaries  
 - DevOps adoption  
@@ -148,7 +151,8 @@ Without organizational alignment, even well-designed architectures fail during e
 
 Cloud introduces a shift from CapEx to OpEx, requiring new financial controls.
 
-#### Key Areas:
+#### 💰 Key Areas:
+
 - Budgeting and forecasting  
 - Cost allocation (tagging)  
 - Cost optimization strategies  
@@ -185,7 +189,7 @@ The Plan phase transforms strategy into a structured execution roadmap.
 
 ---
 
-### Key Outputs:
+### 📄 Key Outputs:
 
 - Application inventory and classification  
 - Migration strategy (6Rs)  
