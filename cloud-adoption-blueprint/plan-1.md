@@ -196,7 +196,7 @@ The Plan phase transforms strategy into a structured execution roadmap.
 
 Planning is not about creating a perfect roadmap — it is about reducing uncertainty and enabling controlled execution.
 
-## 🔍 Closing Thoughts
+### 🔍 Closing Thoughts
 
 The effectiveness of cloud adoption is heavily influenced by the quality of planning. 
 
