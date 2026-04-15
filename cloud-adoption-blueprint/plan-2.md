@@ -205,9 +205,9 @@ Planning is not about creating a perfect roadmap — it is about reducing uncert
 The Plan phase is where cloud adoption becomes tangible.
 
 A well-executed planning phase ensures:
-- predictable migration  
-- minimized risk  
-- alignment between business and technology  
+- Predictable migration  
+- Minimized risk  
+- Alignment between business and technology  
 
 ---
 
