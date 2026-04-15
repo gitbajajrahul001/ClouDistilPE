@@ -5,15 +5,17 @@ title: Blogs
 
 # 📚 Blog Series
 
-A collection of structured, real-world guides across enterprise architecture, cloud transformation, and sourcing.
+A collection of structured, experience-driven perspectives across enterprise architecture, cloud adoption, and sourcing.  
+
+These are not theoretical guides, but reflections on how these domains are approached, interpreted, and executed in real-world scenarios.
 
 ---
 
 <div class="card-container">
 
 <div class="card">
-<h3>🏢 RFP Journey</h3>
-<p>Understanding how enterprises define, structure, and execute RFPs—from both customer and provider perspectives.</p>
+<h3><strong>📊 RFP Journey</strong></h3>
+<p>How enterprises actually approach sourcing—from defining requirements to evaluating providers and executing engagements. Covers both customer and provider perspectives, highlighting practical challenges and decision points.</p>
 
 <ul>
 <li><a href="rfp/customer">Customer View</a></li>
@@ -22,21 +24,10 @@ A collection of structured, real-world guides across enterprise architecture, cl
 </div>
 
 <div class="card">
-<h3>☁️ Cloud Adoption</h3>
-<p>Practical approaches to cloud adoption.</p>
-<ul>
-<li><a href="cloud-adoption-blueprint">Cloud Adoption Blueprint</a></li>
-</ul>
-</div>
-
-<div class="card">
-<h3>🏗️ Architecture</h3>
-<p>Designing scalable and resilient enterprise platforms.</p>
+<h3><strong>🔵 ☁️ Cloud Adoption</strong></h3>
+<p>A structured view of cloud adoption, combining foundational frameworks with how they translate into real consulting engagements and execution strategies.</p>
 
 <ul>
-<li><a href="architecture">Architecture Series</a></li>
-<li><a href="architecture">Multi-Cloud Architecture</a></li>
+<li><a href="cloud-adoption-blueprint">Cloud Adoption Framework</a></li>
 </ul>
-</div>
-
 </div>
