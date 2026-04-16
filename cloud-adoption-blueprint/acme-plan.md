@@ -1,3 +1,8 @@
+---
+layout: default
+title: ACME|Plan
+---
+
 ## 🔷 Phase 2: Plan (Day 30 → Day 60)
 
 With a refined strategy in place, the focus shifted to translating direction into **application-level execution decisions**.

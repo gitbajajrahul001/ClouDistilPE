@@ -1,3 +1,8 @@
+---
+layout: default
+title: ACME|Ready
+---
+
 ## 🔷 Phase 3: Ready (Day 60 → Day 90)
 
 With a detailed plan in place, the focus shifted to building the **cloud foundation (Landing Zone)** that could support ACME Corp’s application landscape, compliance requirements, and operating model.

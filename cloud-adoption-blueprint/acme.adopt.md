@@ -1,3 +1,9 @@
+---
+layout: default
+title: ACME|Adopt
+---
+
+
 ## 🔷 Phase 4: Adopt (Day 90 → Day 180)
 
 With the landing zone in place, ACME Corp began executing workload migration and modernization in a phased manner.

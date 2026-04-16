@@ -1,3 +1,8 @@
+---
+layout: default
+title: ACME|Strategy
+---
+
 ## 🔷 Phase 1: Strategy (Day 0 → Day 30)
 
 The engagement began with aligning on ACME Corp’s initial vision for cloud adoption.
@@ -20,22 +25,18 @@ ACME Corp approached the engagement with a clear but broad objective **Migrate a
 
 Through stakeholder workshops and discovery sessions, several gaps emerged:
 
-#### **Business Misalignment**
+**Business Misalignment**
 
 - Different regions had different priorities  (e.g., Europe focused on compliance, US focused on speed to market)
 - No unified definition of success  
 
----
-
-#### **Application Landscape Gaps**
+**Application Landscape Gaps**
 
 - No centralized inventory of applications  
 - Unknown dependencies between core banking and downstream systems  
 - Multiple duplicate applications across regions  
 
----
-
-#### **Compliance Complexity**
+**Compliance Complexity**
 
 Regulatory requirements varied not just by region, but also by workload type:
 
@@ -45,17 +46,13 @@ Regulatory requirements varied not just by region, but also by workload type:
 - Core Banking Systems (e.g., FFIEC guidelines for operational resilience and risk management)
 - Trading & Investment Platforms (e.g., SEC regulations and audit requirements for transaction traceability)
 
----
-
-#### **Key Gap Identified**
+**Key Gap Identified**
 
 - Compliance requirements were understood in isolation  
 - No mapping between **applications ↔ regulatory controls**  
 - No clarity on how these requirements would translate into cloud design  
 
----
-
-#### **Operational Readiness**
+**Operational Readiness**
 
 - Teams had limited cloud experience  
 - No defined operating model  
@@ -75,14 +72,12 @@ Based on discovery, the strategy was refined into structured decisions:
 
 ---
 
-#### **Decision 1: Not All Workloads Will Move**
+**Decision 1: Not All Workloads Will Move**
 
 - Core banking systems retained due to regulatory and stability requirements (e.g., systems governed by FFIEC guidelines with strict operational controls)
 - Customer-facing applications prioritized for migration  
 
----
-
-#### **Decision 2: Map Workloads to Compliance Requirements**
+**Decision 2: Map Workloads to Compliance Requirements**
 
 Instead of treating compliance generically, workloads were mapped:
 
@@ -93,17 +88,13 @@ Instead of treating compliance generically, workloads were mapped:
 | Customer Data Apps | GDPR | Data residency, encryption, access governance |
 | Core Banking | FFIEC | High availability, risk controls, operational monitoring |
 
----
-
-#### **Decision 3: Define Clear Business Outcomes**
+**Decision 3: Define Clear Business Outcomes**
 
 - Reduce environment provisioning time from weeks to hours  
 - Enable faster release cycles for digital applications  
 - Improve compliance visibility across workloads  
 
----
-
-#### **Decision 4: Segment Workloads**
+**Decision 4: Segment Workloads**
 
 Applications were categorized into:
 
@@ -111,17 +102,13 @@ Applications were categorized into:
 - Core banking (high stability, high regulatory constraints)  
 - Regulated workloads (strict compliance-driven design)  
 
----
-
-#### **Decision 5: Define Risk & Resilience Expectations**
+**Decision 5: Define Risk & Resilience Expectations**
 
 - Payment systems → near-zero downtime  
 - Reporting systems → strict auditability  
 - Customer apps → high scalability with moderate recovery tolerance  
 
----
-
-#### **Decision 6: Establish Operating Model Direction**
+**Decision 6: Establish Operating Model Direction**
 
 - Move toward a **shared platform model**  *(central platform team enforcing compliance + application teams owning workloads)*
 

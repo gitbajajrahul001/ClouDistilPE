@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ACME Corp Case Study
+title: ACME|Case Study
 ---
 
 # ACME Corp – Cloud Transformation Case Study
