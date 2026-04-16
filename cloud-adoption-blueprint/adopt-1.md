@@ -205,4 +205,4 @@ A well-executed adoption ensures:
 
 ---
 
-[⬅ Back to Ready](ready-1.md) | [Next: Adopt – Consulting Approach ➡](adopt-2.md)
+[⬅ Back to Series Home](index.md) | [⬅ Back to Ready](ready-1.md) | [Next: Adopt – Consulting Approach ➡](adopt-2.md)

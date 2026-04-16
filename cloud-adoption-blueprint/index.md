@@ -20,7 +20,7 @@ Organizations often rely on external consulting partners to shape their cloud st
 ---
 
 
-## 🧭 Journey Overview
+## 🧭 Journey Overview (Mindset Building)
 
 Cloud adoption progresses from defining direction to structuring execution, establishing a secure foundation, and ultimately enabling controlled workload migration and modernization.
 
@@ -34,5 +34,27 @@ Cloud adoption progresses from defining direction to structuring execution, esta
 | Ready Phase – Consulting Approach | Implementing the landing zone with real-world trade-offs, governance enforcement, and design decisions | [Open](ready-2.md) |
 | Adopt Phase – Foundations | Executing workload migration and modernization with structured deployment, testing, and cutover strategies | [Open](adopt-1.md) |
 | Adopt Phase – Consulting Approach | Managing real-world migration challenges, trade-offs, stabilization, and operational integration | [Open](adopt-2.md) |
+
+---
+
+## 🧪 Case Study Walkthrough (Real-World Execution)
+
+Understanding concepts is only one part of cloud adoption. Real transformation happens when these concepts are applied in complex, evolving enterprise environments.
+
+This case study series follows a fictional multinational banking organization, **ACME Corp**, as it navigates its cloud transformation journey. Each phase of the journey is explored through real-world scenarios, decision-making, trade-offs, and evolving strategy.
+
+Rather than presenting ideal outcomes, this series focuses on:
+- how problems actually surface  
+- how decisions are made under constraints  
+- how initial assumptions evolve over time  
+
+| Case Study | Description | Link |
+|------------|-------------|------|
+| ACME Corp – Overview | Business context, challenges, and initial problem statement | [Open](acme-overview.md) |
+| ACME Corp – Strategy Phase | How initial assumptions were challenged and strategy was refined based on real constraints | [Open](acme-strategy.md) |
+| ACME Corp – Plan Phase | Translating strategy into application-level decisions, dependency mapping, and compliance-driven planning | [Open](acme-plan.md) |
+| ACME Corp – Ready Phase | Designing and implementing the landing zone while balancing governance, security, and agility | [Open](acme-ready.md) |
+| ACME Corp – Adopt Phase | Executing migration and modernization, handling failures, and stabilizing workloads in cloud | [Open](acme-adopt.md) |
+| ACME Corp – Operate & Govern | Ensuring ongoing compliance, cost control, and operational excellence post-migration | [Open](acme-operate.md) |
 
 ---
