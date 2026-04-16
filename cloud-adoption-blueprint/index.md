@@ -11,9 +11,11 @@ This blog series aims to build an **architect’s mindset** for enterprise cloud
 
 While inspired by the Azure Cloud Adoption Framework (CAF), the principles remain **cloud-agnostic**, focusing on foundational thinking and decision-making that apply across platforms. Cloud providers may differ in services, but the **core execution flow, architectural considerations, and trade-offs** remain consistent.
 
-Each phase of the journey is explored in two layers:
-- **Foundations** — clarifying core concepts  
-- **Consulting Approach** — applying them in real-world engagements  
+To solidify the concepts, I have broken this series down in the following structure:
+
+- **Foundations** — Clarifying core concepts  
+- **Consulting Approach** — Applying them in real-world engagements
+- **Case Study** - Real-world exposure
 
 Organizations often rely on external consulting partners to shape their cloud strategy. This series bridges that gap by combining structured understanding with insights into how such transformations are approached and executed in practice.
 
