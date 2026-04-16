@@ -224,4 +224,4 @@ The Plan phase is where cloud adoption becomes actionable. It is also where:
 
 ---
 
-[⬅ Back to Plan-Foundations ](plan-1.md) | [Next: Ready Phase-Foundations ➡](ready-1.md)
+[⬅ Back to Series Home](index.md) | [⬅ Back to Plan-Foundations ](plan-1.md) | [Next: Ready Phase-Foundations ➡](ready-1.md)

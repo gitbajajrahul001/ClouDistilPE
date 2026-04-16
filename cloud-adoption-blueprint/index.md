@@ -30,6 +30,7 @@ Organizations often rely on external consulting partners to shape their cloud st
 | Plan Phase – Consulting Approach | Translating strategy into execution through assessments, prioritization, and migration planning | [Open](plan-2.md) |
 | Ready Phase – Foundations | Establishing the cloud foundation: resource hierarchy, IAM, networking, security, and governance | [Open](ready-1.md) |
 | Ready Phase – Consulting Approach | Implementing the landing zone with real-world trade-offs, governance enforcement, and design decisions | [Open](ready-2.md) |
-
+| Adopt Phase – Foundations | Executing workload migration and modernization with structured deployment, testing, and cutover strategies | [Open](adopt-1.md) |
+| Adopt Phase – Consulting Approach | Managing real-world migration challenges, trade-offs, stabilization, and operational integration | [Open](adopt-2.md) |
 
 ---

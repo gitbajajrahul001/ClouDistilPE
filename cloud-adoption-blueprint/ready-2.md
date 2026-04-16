@@ -271,4 +271,4 @@ and enables smooth transition into workload adoption.
 
 ---
 
-[⬅ Back to Ready Foundations](ready-1.md) | [Next: Adopt Phase ➡](adopt-1.md)
+[⬅ Back to Series Home](index.md) | [⬅ Back to Ready Foundations](ready-1.md) | [Next: Adopt Phase ➡](adopt-1.md)
