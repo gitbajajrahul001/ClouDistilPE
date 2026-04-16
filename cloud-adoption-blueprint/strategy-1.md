@@ -170,4 +170,4 @@ What stands out is that most decisions at this stage are not technical, but revo
 ---
 
 
-[⬅ Back to Series Home](index.md) | [Next: Strategy-Consulting-Approach ➡](strategy-2.md)
+[⬅ Back to Series Home](index.md) | [Next: Plan-Foundations ➡](plan-1.md)

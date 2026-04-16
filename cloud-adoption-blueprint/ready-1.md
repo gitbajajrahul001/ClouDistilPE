@@ -221,5 +221,4 @@ A well-designed foundation enables:
 The quality of the Ready phase directly impacts the success of all subsequent phases.
 
 ---
-
-[⬅ Back to Series Home](index.md) | [⬅ Back to Plan](plan-1.md) | [Next: Ready – Consulting Approach ➡](ready-2.md)
+[⬅ Back to Series Home](index.md) | [⬅ Back to Plan-Foundations](plan-1.md) | [Next: Ready-Foundations ➡](ready-1.md)

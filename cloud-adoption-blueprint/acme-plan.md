@@ -181,4 +181,4 @@ This led into the **Ready Phase**, where the landing zone would be designed and 
 
 ---
 
-[⬅ Back to Series Home](index.md) | [⬅ Back to ACME-Strategy](acme-strategy.md) | [Next: Acme-Ready ➡](acme-ready.md)
+[⬅ Back to Series Home](index.md) | [⬅ Back to Strategy-ACME](acme-strategy.md) | [Next: Ready-ACME ➡](acme-ready.md)

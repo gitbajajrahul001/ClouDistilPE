@@ -270,5 +270,4 @@ A well-executed foundation ensures:
 and enables smooth transition into workload adoption.
 
 ---
-
-[⬅ Back to Series Home](index.md) | [⬅ Back to Ready Foundations](ready-1.md) | [Next: Adopt Phase ➡](adopt-1.md)
+[⬅ Back to Series Home](index.md) | [⬅ Back to Plan-Consulting](plan-2.md) | [Next: Adopt-Consulting ➡](adopt-2.md)
