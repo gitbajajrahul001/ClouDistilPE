@@ -5,17 +5,17 @@ title: Blogs
 
 # 📚 Blog Series
 
-A collection of structured, experience-driven perspectives across enterprise architecture, cloud adoption, and sourcing.  
+A structured collection of insights across enterprise architecture, cloud transformation, and sourcing — built from real-world experience rather than theoretical frameworks.
 
-These are not theoretical guides, but reflections on how these domains are approached, interpreted, and executed in real-world scenarios.
+These series are designed to help build an **end-to-end understanding of how enterprises think, design, and execute technology decisions in practice.**
 
 ---
 
 <div class="card-container">
 
 <div class="card">
-<h3><strong>📊 RFP Journey</strong></h3>
-<p>How enterprises actually approach sourcing—from defining requirements to evaluating providers and executing engagements. Covers both customer and provider perspectives, highlighting practical challenges and decision points.</p>
+<h3><strong>📊 Enterprise Sourcing (RFP Journey)</strong></h3>
+<p>Understanding how enterprises approach sourcing—from defining requirements and structuring RFPs to evaluating providers and executing engagements. Covers both customer and provider perspectives, including real-world challenges and decision-making patterns.</p>
 
 <ul>
 <li><a href="rfp/customer">Customer View</a></li>
@@ -24,12 +24,23 @@ These are not theoretical guides, but reflections on how these domains are appro
 </div>
 
 <div class="card">
-<h3><strong>☁️ Cloud Adoption</strong></h3>
-<p>A structured view of cloud adoption, combining foundational frameworks with how they translate into real consulting engagements and execution strategies.</p>
+<h3><strong>☁️ Cloud Transformation Journey</strong></h3>
+<p>A structured view of how enterprises adopt cloud — from strategy and planning to execution and real-world challenges. Combines framework-driven thinking with a practical case study to connect concepts with actual outcomes.</p>
 
 <ul>
 <li><a href="cloud-adoption-blueprint">Architecting Enterprise Cloud Adoption</a></li>
-<li><a href="application-architecture">Application Architecture in the Enterprise</a></li>
-<li><a href="network-architecture">Network Architecture in the Enterprise</a></li>
+<li><a href="acme-overview">ACME Corp Case Study</a></li>
 </ul>
+</div>
+
+<div class="card">
+<h3><strong>🧱 Architecture Deep Dive</strong></h3>
+<p>A deeper exploration of core architecture domains, focusing on how systems are actually designed in enterprises. Covers patterns, trade-offs, and real-world decision-making across different layers of architecture.</p>
+
+<ul>
+<li><a href="application-architecture">Application Architecture</a></li>
+<li><a href="network-architecture">Network Architecture</a></li>
+</ul>
+</div>
+
 </div>
