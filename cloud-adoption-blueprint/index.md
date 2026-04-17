@@ -13,7 +13,7 @@ While inspired by the Azure Cloud Adoption Framework (CAF), the principles remai
 
 To solidify the concepts, I have broken this series down in the following structure:
 
-- **Foundations** — Clarifying core concepts  
+- **Foundation** — Clarifying core concepts  
 - **Consulting Approach** — Applying them in real-world engagements
 - **Case Study** - Real-world exposure
 
@@ -28,11 +28,11 @@ Cloud adoption progresses from defining direction to structuring execution, esta
 
 | Phase | Description | Link |
 |------|-------------|------|
-| Strategy Phase – Foundations | Core concepts: business goals, risk, compliance, and organizational readiness | [Open](strategy-1.md) |
-| Plan Phase – Foundations | Structuring the digital estate, application strategy (6Rs), dependencies, and migration sequencing | [Open](plan-1.md) |
-| Ready Phase – Foundations | Establishing the cloud foundation: resource hierarchy, IAM, networking, security, and governance | [Open](ready-1.md) |
-| Adopt Phase – Foundations | Executing workload migration and modernization with structured deployment, testing, and cutover strategies | [Open](adopt-1.md) |
-| Operate & Govern – Foundations | Ensure continuous compliance, optimization, and operational excellence| WIP |
+| Strategy Phase – Foundation | Core concepts: business goals, risk, compliance, and organizational readiness | [Open](strategy-1.md) |
+| Plan Phase – Foundation | Structuring the digital estate, application strategy (6Rs), dependencies, and migration sequencing | [Open](plan-1.md) |
+| Ready Phase – Foundation | Establishing the cloud foundation: resource hierarchy, IAM, networking, security, and governance | [Open](ready-1.md) |
+| Adopt Phase – Foundation | Executing workload migration and modernization with structured deployment, testing, and cutover strategies | [Open](adopt-1.md) |
+| Operate & Govern – Foundation | Ensure continuous compliance, optimization, and operational excellence| WIP |
 
 ---
 

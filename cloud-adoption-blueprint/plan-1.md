@@ -211,4 +211,4 @@ A well-defined Plan phase ensures that:
 
 ---
 
-[⬅ Back to Series Home](index.md) | [⬅ Back to Strategy-Foundations](strategy-1.md) |[Next: Ready-Foundations ➡](ready-1.md)
+[⬅ Back to Series Home](index.md) | [⬅ Back to Strategy-Foundation](strategy-1.md) |[Next: Ready-Foundations ➡](ready-1.md)
