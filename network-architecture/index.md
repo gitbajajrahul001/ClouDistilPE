@@ -24,8 +24,8 @@ Network architecture is not a static design — it is an evolving model that bal
 
 | Layer | Description | Link |
 |------|-------------|------|
-| Foundation | Understanding network patterns, hybrid models, and design principles | [Open](network-1.md) |
-| Consulting Approach | Real-world trade-offs, segmentation challenges, and hybrid complexity | [Open](network-2.md) |
-| Case Study | Network architecture evolution in practice through ACME Corp transformation | [Open](network-3.md) |
+| Foundation | Understanding network patterns, hybrid models, and design principles | [Open](network-arch-foundation.md) |
+| Consulting Approach | Real-world trade-offs, segmentation challenges, and hybrid complexity | [Open](network-arch-consulting.md) |
+| Case Study | Network architecture evolution in practice through ACME Corp transformation | [Open](network-arch-acme.md) |
 
 ---
