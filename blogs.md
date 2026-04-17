@@ -29,5 +29,7 @@ These are not theoretical guides, but reflections on how these domains are appro
 
 <ul>
 <li><a href="cloud-adoption-blueprint">Architecting Enterprise Cloud Adoption</a></li>
+<li><a href="application-architecture">Application Architecture in the Enterprise</a></li>
+<li><a href="network-architecture">Network Architecture in the Enterprise</a></li>
 </ul>
 </div>

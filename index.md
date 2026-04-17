@@ -18,3 +18,4 @@ Through this platform, I aim to bridge that gap with a collection of structured 
 - 📑 [Inside the RFP — Customer View](rfp/customer)  
 - 🤝 [Inside the RFP — Provider View](rfp/provider)  
 - ☁️ [Architecting Enterprise Cloud Adoption](cloud-adoption-blueprint)
+- 🧱 [Application Architecture in the Enterprise](application-architecture)
