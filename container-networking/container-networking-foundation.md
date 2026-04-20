@@ -208,9 +208,7 @@ If this works, Linux has successfully done all of the following:
     
 This proves that the two isolated network namespaces are now able to communicate.
 
----
-
-### Important Concept: What Does exec Mean Here?
+*Important Concept: What Does exec Mean Here?*
 
 In commands like this:
 ```text
@@ -234,9 +232,7 @@ You may see output like this:
 
 **What this means**
 
-This shows that the interface is paired with another interface.
-
-That pairing is what makes the veth link work.
+This shows that the interface is paired with another interface. That pairing is what makes the veth link work.
 
 **What to understand**
 
@@ -257,12 +253,9 @@ sudo ip netns exec ns2 ip route   `
 
 **How to read it**
 
-- 10.0.0.0/24 is the destination subnet
-    
-- dev veth-ns1 means use this interface
-    
-- scope link means the destination is directly reachable on that link
-    
+- 10.0.0.0/24 is the destination subnet    
+- dev veth-ns1 means use this interface    
+- scope link means the destination is directly reachable on that link    
 - src 10.0.0.1 is the preferred source IP for this route
 
 **What to understand**
@@ -342,7 +335,7 @@ A simplified sequence looks like this:
 
 ---
 
-## Why This Lab Matters for Containers and Kubernetes
+## **Why This Lab Matters for Containers and Kubernetes**
 
 This lab is small, but the ideas are foundational.
 
