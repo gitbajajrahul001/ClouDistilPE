@@ -21,7 +21,7 @@ If you're working on enterprise transformation, cloud architecture, or trying to
   [gitbajajrahul001](https://github.com/gitbajajrahul001)
 
 - **Website**  
-  [Enterprise Internals](../)
+  [Enterprise Internals](https://gitbajajrahul001.github.io/EnterpriseInternals/)
 
 ---
 
