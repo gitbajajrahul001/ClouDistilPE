@@ -23,7 +23,7 @@ However, these decisions were still theoretical and had not been tested under re
 
 At the start of the Ready phase, the network vision was *Implement a centralized hub-and-spoke architecture with strict segmentation and full traffic inspection*
 
-### Observations
+### **Observations**
 
 - Strong focus on security and control  
 - Assumption that all traffic would flow through central hub  
@@ -154,6 +154,7 @@ Instead of rigid enforcement:
 - Correlated with application performance metrics  
 
 ---
+
 ## 🔷 4. What Changed During Execution
 
 ---
