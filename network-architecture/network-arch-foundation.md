@@ -44,7 +44,7 @@ Network architecture directly influences:
 - regulatory isolation  
 - operational simplicity  
 
-### **Example**
+**Example**
 
 The same application may require:
 
@@ -77,6 +77,7 @@ Systems must be able to communicate where needed.
 Not everything should communicate freely.
 
 **Examples:**
+
 - Production separated from non-production  
 - PCI workloads isolated from general applications  
 - Shared services separated from workload environments  
@@ -87,6 +88,7 @@ Not everything should communicate freely.
 Communication paths must be protected and controlled.
 
 **Examples:**
+
 - Private endpoints for platform services  
 - Firewall inspection for outbound traffic  
 - Restricted inbound access paths  
@@ -97,6 +99,7 @@ Communication paths must be protected and controlled.
 The network must support growth without redesign every time.
 
 **Examples:**
+
 - New application environments added without reworking routing  
 - Additional regions added with consistent patterns  
 
@@ -105,6 +108,7 @@ The network must support growth without redesign every time.
 The network should be understandable and supportable.
 
 **Examples:**
+
 - Clear routing ownership  
 - Standardized address allocation  
 - Defined ingress and egress paths  
@@ -172,10 +176,12 @@ Spokes or services communicate more directly without heavy centralization.
 Cloud environments connect back to on-prem networks.
 
 **Examples:**
+
 - VPN connectivity for initial adoption  
 - dedicated private links for production workloads  
 
 **Challenges:**
+
 - dependency on legacy systems  
 - latency and routing constraints  
 - overlapping IP ranges  
@@ -197,6 +203,7 @@ Network decisions are typically shaped by several factors.
 Network design must align with how applications interact.
 
 **Examples:**
+
 - tightly coupled systems needing low latency  
 - internet-facing applications needing secure ingress  
 - backend systems requiring private-only communication  
@@ -207,6 +214,7 @@ Network design must align with how applications interact.
 Certain workloads require stronger isolation and control.
 
 **Examples:**
+
 - PCI workloads requiring segmented network paths  
 - regulated applications requiring traffic inspection  
 - private access requirements for internal services  
@@ -217,6 +225,7 @@ Certain workloads require stronger isolation and control.
 Applications often still rely on on-prem systems.
 
 **Examples:**
+
 - authentication systems hosted on-prem  
 - legacy databases not yet migrated  
 - branch offices accessing cloud-hosted apps  
@@ -227,6 +236,7 @@ Applications often still rely on on-prem systems.
 Poor address planning creates long-term issues.
 
 **Examples:**
+
 - overlapping IP ranges blocking peering  
 - uncontrolled subnet growth  
 - inconsistent routing patterns across regions  
@@ -237,6 +247,7 @@ Poor address planning creates long-term issues.
 Network architecture must align with who manages it.
 
 **Examples:**
+
 - central network team managing shared services  
 - platform team managing cloud connectivity  
 - workload teams consuming standardized network patterns  
