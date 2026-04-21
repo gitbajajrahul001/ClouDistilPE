@@ -17,6 +17,8 @@ In enterprise environments, however, network architecture is not just about conn
 
 ## 🧱 The Reality of Enterprise Networks
 
+---
+
 Most enterprise networks are not designed from scratch. They evolve over time and typically include:
 
 - On-premises data centers *(e.g., legacy applications hosted in private data centers)*  
