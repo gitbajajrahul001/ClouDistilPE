@@ -5,20 +5,21 @@ title: Observability | Consulting Approach
 
 # Observability – Consulting Approach
 
-In enterprise environments, observability is almost always present — but rarely effective.
+In enterprise environments, observability is almost always present — but rarely effective. 
 
 Most organizations have:
+
 - monitoring tools  
 - dashboards  
 - logs  
 
-Yet still struggle to answer a simple question:
-
-> “What exactly is going wrong?”
+Yet still struggle to answer a simple question *What exactly is going wrong?*
 
 ---
 
 ## 🧭 How Observability Is Actually Implemented
+
+---
 
 Observability is not designed end-to-end. It typically evolves as:
 
@@ -26,11 +27,9 @@ Observability is not designed end-to-end. It typically evolves as:
 - teams solving problems independently  
 - reactive improvements after incidents  
 
----
-
-### 🧠 Key Insight
-
+>
 > Most observability systems are built for visibility — not for understanding.
+>
 
 ---
 
@@ -41,11 +40,10 @@ Observability is not designed end-to-end. It typically evolves as:
 ### **What Happens**
 
 - Multiple tools introduced:
+
   - infrastructure monitoring  
   - application monitoring  
   - logging platforms  
-
----
 
 ### **Reality**
 
@@ -53,15 +51,11 @@ Observability is not designed end-to-end. It typically evolves as:
 - Fragmented visibility  
 - No single source of truth  
 
----
-
 ### **Example**
 
 - Metrics in one tool  
 - Logs in another  
 - Traces not implemented  
-
----
 
 ### **Typical Adjustment**
 
@@ -69,9 +63,7 @@ Observability is not designed end-to-end. It typically evolves as:
 - Introduce correlation mechanisms  
 - Standardize telemetry  
 
----
-
-### ⚠️ Common Mistake
+### **Common Mistake**
 
 - Assuming adding tools improves observability  
 
@@ -116,15 +108,13 @@ Observability is not designed end-to-end. It typically evolves as:
 
 ---
 
-### ⚠️ Common Mistake
+### **Common Mistake**
 
 - Alerting on every metric  
 
----
-
-### 🧠 Insight
-
+>
 > Too many alerts are as dangerous as no alerts.
+> 
 
 ---
 
@@ -136,22 +126,16 @@ Observability is not designed end-to-end. It typically evolves as:
 
 - Logs provide detailed information  
 
----
-
 ### **What Happens**
 
 - Unstructured logs  
 - Inconsistent formats  
 - Difficult to search and correlate  
 
----
-
 ### **Example**
 
 - Different services logging differently  
 - Missing correlation IDs  
-
----
 
 ### **Typical Adjustment**
 
@@ -159,17 +143,13 @@ Observability is not designed end-to-end. It typically evolves as:
 - Introduce structured logs (JSON)  
 - Include correlation identifiers  
 
----
-
-### ⚠️ Common Mistake
+### **Common Mistake**
 
 - Treating logs as raw output instead of structured data  
 
----
-
-### 🧠 Insight
-
+>
 > Logs without structure create noise, not insight.
+> 
 
 ---
 
@@ -181,37 +161,26 @@ Observability is not designed end-to-end. It typically evolves as:
 
 - Issues can be diagnosed using logs and metrics  
 
----
-
 ### **What Happens**
 
 - No visibility across service boundaries  
 - Difficult to trace request flow  
 
----
-
 ### **Example**
 
 - API call failure with no visibility into downstream services  
-
----
 
 ### **Typical Adjustment**
 
 - Implement distributed tracing  
 - Propagate trace IDs across services  
 
----
-
-### ⚠️ Common Mistake
+### **Common Mistake**
 
 - Ignoring tracing in microservices environments  
-
----
-
-### 🧠 Insight
-
+>
 > Without tracing, distributed systems are opaque.
+>
 
 ---
 
@@ -223,8 +192,6 @@ Observability is not designed end-to-end. It typically evolves as:
 
 - Systems provide sufficient data  
 
----
-
 ### **What Happens**
 
 - No visibility into:
@@ -232,30 +199,22 @@ Observability is not designed end-to-end. It typically evolves as:
   - configuration changes  
   - scaling events  
 
----
-
 ### **Example**
 
 - Performance issue caused by deployment, but no visibility into change  
-
----
 
 ### **Typical Adjustment**
 
 - Integrate observability with CI/CD pipelines  
 - Track deployment and configuration events  
 
----
-
-### ⚠️ Common Mistake
+### **Common Mistake**
 
 - Ignoring system context  
 
----
-
-### 🧠 Insight
-
+>
 > Most incidents are caused by change — not failure.
+> 
 
 ---
 
@@ -267,14 +226,10 @@ Observability is not designed end-to-end. It typically evolves as:
 
 - Each team manages its own observability  
 
----
-
 ### **Reality**
 
 - No shared view across system  
 - Difficult cross-team troubleshooting  
-
----
 
 ### **Example**
 
@@ -282,24 +237,18 @@ Observability is not designed end-to-end. It typically evolves as:
 - App team sees errors  
 - No unified understanding  
 
----
-
 ### **Typical Adjustment**
 
 - Central observability strategy  
 - Shared dashboards and standards  
 
----
-
-### ⚠️ Common Mistake
+### **Common Mistake**
 
 - Treating observability as a team-specific concern  
 
----
-
-### 🧠 Insight
-
+>
 > Observability must be system-wide, not team-specific.
+>
 
 ---
 
@@ -311,21 +260,15 @@ Observability is not designed end-to-end. It typically evolves as:
 
 - Capture all data for visibility  
 
----
-
 ### **What Happens**
 
 - High ingestion costs  
 - Storage explosion  
 - Budget constraints  
 
----
-
 ### **Example**
 
 - High log retention leading to unexpected cost spikes  
-
----
 
 ### **Typical Adjustment**
 
@@ -333,17 +276,13 @@ Observability is not designed end-to-end. It typically evolves as:
 - Filter unnecessary data  
 - Tiered storage strategies  
 
----
-
-### ⚠️ Common Mistake
+### **Common Mistake**
 
 - Collecting everything without prioritization  
 
----
-
-### 🧠 Insight
-
+>
 > Observability must balance depth of insight with cost efficiency.
+> 
 
 ---
 
@@ -351,74 +290,25 @@ Observability is not designed end-to-end. It typically evolves as:
 
 ---
 
-### ❌ Dashboard-driven visibility
+### **Dashboard-driven visibility**
 
 - Looks good but lacks depth  
 
----
-
-### ❌ No root cause capability
+### **No root cause capability**
 
 - Symptoms visible, cause unknown  
 
----
-
-### ❌ Over-reliance on metrics
+### **Over-reliance on metrics**
 
 - Missing logs and traces  
 
----
-
-### ❌ Lack of ownership
+### **Lack of ownership**
 
 - No team responsible for observability quality  
 
----
-
-### ❌ Reactive implementation
+### **Reactive implementation**
 
 - Improvements only after incidents  
-
----
-
-## 🔗 Connection to Other Domains
-
-Observability directly impacts:
-
-- **Application Architecture**  
-  *(e.g., tracing, diagnostics, performance analysis)*  
-
-- **Network Architecture**  
-  *(e.g., latency, traffic visibility)*  
-
-- **Security Architecture**  
-  *(e.g., anomaly detection, threat monitoring)*  
-
-- **Platform Engineering**  
-  *(e.g., integrated telemetry, standardized tooling)*  
-
-- **Resilience / BCP**  
-  *(e.g., failure detection, recovery validation)*  
-
----
-
-### 🧠 Key Insight
-
-> Without effective observability, even well-architected systems become difficult to operate and scale.
-
----
-
-## 🔍 Closing Thoughts
-
-In enterprise environments, observability is not about having tools, but about:
-
-- enabling system understanding  
-- reducing time to diagnose issues  
-- improving operational confidence  
-
----
-
-> The most effective observability systems do not just show data — they help teams make decisions.
 
 ---
 
