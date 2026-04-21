@@ -7,10 +7,6 @@ title: Network Architecture | Case Study
 
 This section extends the ACME Corp transformation journey, focusing on how network architecture decisions evolved across Strategy, Plan, Ready, and Adopt phases.
 
----
-
-## 🧭 Context
-
 During earlier phases, ACME Corp had defined:
 
 - Compliance-driven segmentation (PCI, SOX, GDPR workloads)  
@@ -49,7 +45,7 @@ As workloads began onboarding, several realities emerged:
 - Some applications required low-latency communication  
 - Others depended on direct service-to-service connectivity  
 
-#### Example
+#### **Example:**
 
 - Customer-facing application routed through central firewall  
 - Result: increased latency and degraded user experience  
@@ -59,7 +55,7 @@ As workloads began onboarding, several realities emerged:
 - Core systems still hosted on-prem  
 - Cloud workloads dependent on on-prem authentication and data  
 
-#### Example
+#### **Example:**
 
 - Login flows delayed due to repeated network round trips  
 
@@ -68,7 +64,7 @@ As workloads began onboarding, several realities emerged:
 - PCI workloads required strict isolation  
 - But shared services needed access across environments  
 
-#### Example
+#### **Example:**
 
 - Logging and monitoring services needing access to both PCI and non-PCI environments  
 
@@ -76,7 +72,7 @@ As workloads began onboarding, several realities emerged:
 
 - Overlapping IP ranges between regions and legacy systems  
 
-#### Example
+#### **Example:**
 
 - Two business units using same CIDR range  
 - Blocking VNet peering and hybrid connectivity  
@@ -100,7 +96,7 @@ Instead of strict centralization:
   - shared services  
 - Allowed selective direct communication between spokes  
 
-#### Example
+#### **Example:**
 
 - Service-to-service communication allowed within trusted boundaries  
 - Not all traffic forced through central firewall  
@@ -120,7 +116,7 @@ Instead of uniform segmentation:
 - Reduced dependency on on-prem systems  
 - Replicated critical services in cloud  
 
-#### Example
+#### **Example:**
 
 - Identity services partially moved to cloud  
 - Reduced authentication latency  
@@ -130,7 +126,7 @@ Instead of uniform segmentation:
 - Defined global IP allocation strategy  
 - Assigned ranges per region and environment  
 
-#### Example
+#### **Example:**
 
 - Region-based CIDR allocation  
 - Reserved space for future growth  
@@ -142,7 +138,7 @@ Instead of rigid enforcement:
 - Defined exception process  
 - Allowed temporary connectivity with review  
 
-#### Example
+#### **Example:**
 
 - Temporary access for testing environments  
 - Reviewed and removed post-validation  
@@ -152,7 +148,7 @@ Instead of rigid enforcement:
 - Enabled flow logs and diagnostics  
 - Integrated network metrics with application monitoring  
 
-#### Example
+#### **Example:**
 
 - Identified latency issues through flow logs  
 - Correlated with application performance metrics  
@@ -178,6 +174,8 @@ Instead of rigid enforcement:
 
 ## 🔷 5. Final Network Architecture State
 
+---
+
 At the end of initial transformation phases, ACME Corp had:
 
 - Hybrid network with cloud and on-prem integration  
@@ -186,9 +184,7 @@ At the end of initial transformation phases, ACME Corp had:
 - Structured IP addressing across regions  
 - Enhanced observability for network flows  
 
----
-
-### Resulting Network Model:
+**Resulting Network Model:**
 
 ```text
                 On-Prem Data Center
@@ -209,7 +205,9 @@ At the end of initial transformation phases, ACME Corp had:
 
    (Selective communication allowed between zones where required)
 ```
+---
 ## 🔗 Impact on Other Domains
+---
 
 These network decisions directly influenced:
 
