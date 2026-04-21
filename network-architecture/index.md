@@ -18,7 +18,7 @@ Each topic is covered in three layers:
 
 ---
 
-# 🧭 Network Architecture Journey (Mindset Building)
+# 🧭 Network Architecture Journey
 
 Network architecture is not a static design — it is an evolving model that balances connectivity, segmentation, security, and operational simplicity.
 

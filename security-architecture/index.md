@@ -20,7 +20,7 @@ Each topic is covered in three layers:
 
 ---
 
-## 🧭 Security Architecture Journey (From Control to Context)
+## 🧭 Security Architecture Journey
 
 Security architecture is not a static control layer — it is an evolving model that balances protection, usability, and operational feasibility.
 

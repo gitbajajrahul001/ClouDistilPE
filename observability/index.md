@@ -20,7 +20,7 @@ Each topic is covered in three layers:
 
 ---
 
-## 🧭 Observability Journey (From Visibility to Understanding)
+## 🧭 Observability Journey
 
 Observability is not just about collecting data — it is about enabling system understanding across applications, infrastructure, and operations.
 
