@@ -329,7 +329,7 @@ Understanding network architecture is not about memorizing topologies, but about
 - balancing control with simplicity  
 
 >
-> **Key Insight** - A Strong network architecture enables systems to communicate safely, predictably, and at scale.**
+> **Key Insight** - A Strong network architecture enables systems to communicate safely, predictably, and at scale.
 >
 
 ---

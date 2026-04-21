@@ -33,29 +33,29 @@ In real-world engagements, network architecture is not designed purely based on 
 
 ---
 
-### **What is Typically Proposed**
+ **What is Typically Proposed**
 
 - Centralized hub-and-spoke model  
 - All traffic routed through central firewall  
 - Strong governance and control  
 
-### **What Happens in Reality**
+ **What Happens in Reality**
 
 - Increased latency for application traffic  
 - Bottlenecks at central firewall  
 - Complex routing rules  
 
-### **Example**
+ **Example**
 
 - A customer-facing application experiencing latency due to forced routing through central inspection layer  
 
-### **Typical Adjustment**
+ **Typical Adjustment**
 
 - Critical workloads continue via hub  
 - Non-critical workloads allowed simplified paths  
 - Selective bypass for latency-sensitive services  
 
-### **Common Mistake**
+ **Common Mistake**
 
 - Applying hub-and-spoke uniformly across all workloads  
 
@@ -69,28 +69,28 @@ In real-world engagements, network architecture is not designed purely based on 
 
 ---
 
-### **What is Expected**
+ **What is Expected**
 
 - Strict network segmentation  
 - Clear isolation between environments  
 
-### **What Happens**
+ **What Happens**
 
 - Too many segmentation rules  
 - Teams blocked due to lack of connectivity  
 - Frequent exception requests  
 
-### **Example**
+ **Example**
 
 - Dev team unable to test application because access to shared database is restricted  
 
-### **Typical Adjustment**
+ **Typical Adjustment**
 
 - Segmentation applied selectively  
 - Controlled exceptions introduced  
 - Lower environments given more flexibility  
 
-### **Common Mistake**
+ **Common Mistake**
 
 - Over-segmentation without understanding application flows  
 
@@ -104,27 +104,27 @@ In real-world engagements, network architecture is not designed purely based on 
 
 ---
 
-### **What is Planned**
+ **What is Planned**
 
 - Seamless integration between on-prem and cloud  
 
-### **What Actually Happens**
+ **What Actually Happens**
 
 - Latency issues  
 - Dependency on legacy systems  
 - Routing inconsistencies  
 
-### **Example**
+ **Example**
 
 - Cloud application depending on on-prem authentication service  
 - Delays due to network round trips  
 
-### **Typical Adjustment**
+ **Typical Adjustment**
 
 - Gradual reduction of on-prem dependencies  
 - Replication of critical services in cloud  
 
-### **Common Mistake**
+ **Common Mistake**
 
 - Assuming hybrid connectivity is a temporary phase  
 
@@ -138,27 +138,27 @@ In real-world engagements, network architecture is not designed purely based on 
 
 ---
 
-### **What is Assumed**
+ **What is Assumed**
 
 - IP ranges can be planned easily  
 
-### **What Happens**
+ **What Happens**
 
 - Overlapping IP ranges across regions  
 - Conflicts during peering  
 - Limited scalability  
 
-### **Example**
+ **Example**
 
 - Two business units using same IP range  
 - Blocking cross-network connectivity  
 
-### **Typical Adjustment**
+ **Typical Adjustment**
 
 - Introduce structured IP allocation strategy  
 - Re-IP certain environments (often painful)  
 
-### **Common Mistake**
+ **Common Mistake**
 
 - Ignoring IP planning during early stages  
 
@@ -172,32 +172,32 @@ In real-world engagements, network architecture is not designed purely based on 
 
 ---
 
-### **What Security Teams Want**
+ **What Security Teams Want**
 
 - Full inspection of all traffic  
 - Strict inbound/outbound controls  
 
-### **What Developers Need**
+ **What Developers Need**
 
 - Faster access to resources  
 - Fewer restrictions for testing  
 
-### **Typical Conflict**
+ **Typical Conflict**
 
 - Security slows down delivery  
 - Developers bypass controls  
 
-### **Example**
+ **Example**
 
 - Developers exposing services publicly to avoid firewall delays  
 
-### **Typical Adjustment**
+ **Typical Adjustment**
 
 - Introduce controlled self-service  
 - Pre-approved network patterns  
 - Policy-based access instead of manual approvals  
 
-### **Common Mistake**
+ **Common Mistake**
 
 - Treating security and agility as separate concerns  
 
@@ -212,29 +212,29 @@ In real-world engagements, network architecture is not designed purely based on 
 
 ---
 
-### **What is Proposed**
+ **What is Proposed**
 
 - Central network team manages everything  
 
 
-### **What Happens**
+ **What Happens**
 
 - Bottlenecks in provisioning  
 - Slow response to changes  
 - Lack of ownership clarity  
 
 
-### **Example**
+ **Example**
 
 - Application team waiting days for firewall rule updates  
 
-### **Typical Adjustment**
+ **Typical Adjustment**
 
 - Platform team manages shared services  
 - Application teams consume standardized patterns  
 
 
-### **Common Mistake**
+ **Common Mistake**
 
 - Over-centralization without scaling the team  
 
@@ -248,26 +248,26 @@ In real-world engagements, network architecture is not designed purely based on 
 
 ---
 
-### **What is Assumed**
+ **What is Assumed**
 
 - Network issues can be easily diagnosed  
 
-### **What Happens**
+ **What Happens**
 
 - Lack of visibility into traffic flows  
 - Difficult troubleshooting across services  
 
-### **Example**
+ **Example**
 
 - Application slowdown with no clear indication whether issue is network, application, or dependency  
 
-### **Typical Adjustment**
+ **Typical Adjustment**
 
 - Introduce network-level monitoring  
 - Flow logs and diagnostics  
 - Correlation with application telemetry  
 
-### **Common Mistake**
+ **Common Mistake**
 
 - Designing networks without observability in mind  
 
@@ -281,23 +281,23 @@ In real-world engagements, network architecture is not designed purely based on 
 
 ---
 
-### Over-centralization
+ Over-centralization
 
 - Everything routed through a single control point  
 
-### **1. Over-segmentation**
+ **1. Over-segmentation**
 
 - Too many boundaries with unclear purpose  
 
-### **2. Poor IP planning**
+ **2. Poor IP planning**
 
 - Long-term scalability issues  
 
-### **3. Ignoring hybrid complexity**
+ **3. Ignoring hybrid complexity**
 
 - Over-reliance on legacy dependencies  
 
-### **4. Lack of visibility**
+ **4. Lack of visibility**
 
 - Troubleshooting becomes difficult  
 
