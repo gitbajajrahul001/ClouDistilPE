@@ -5,9 +5,8 @@ title: Security Architecture | Consulting Approach
 
 # Security Architecture – Consulting Approach
 
-Security architecture in enterprise environments is rarely implemented as designed.
+Security architecture in enterprise environments is rarely implemented as designed. In practice, it is shaped by:
 
-In practice, it is shaped by:
 - legacy systems  
 - compliance requirements  
 - organizational silos  
@@ -16,6 +15,7 @@ In practice, it is shaped by:
 ---
 
 ## 🧭 How Security Decisions Are Actually Made
+---
 
 Security is not implemented in isolation. It is influenced by:
 
@@ -24,11 +24,9 @@ Security is not implemented in isolation. It is influenced by:
 - how teams operate  
 - how much risk the business is willing to accept  
 
----
-
-### 🧠 Key Insight
-
+>
 > Security is not a technical decision alone — it is a balance between risk, usability, and operational reality.
+>
 
 ---
 
@@ -42,40 +40,31 @@ Security is not implemented in isolation. It is influenced by:
 - Identity-based access everywhere  
 - No implicit trust  
 
----
-
 ### **What Happens in Reality**
 
 - Legacy systems cannot support modern authentication  
 - Network-based controls still required  
 - Partial implementation across environments  
 
----
-
-### **Example**
+### **Examples:**
 
 - New applications use identity-based access  
 - Legacy apps still depend on network-level trust  
 
----
-
 ### **Typical Adjustment**
 
 - Hybrid model:
+
   - Identity-first for modern systems  
   - Network-based controls for legacy  
 
----
-
-### ⚠️ Common Mistake
+### **Common Mistake**
 
 - Trying to enforce Zero Trust uniformly across all systems  
 
----
-
-### 🧠 Insight
-
+>
 > Zero Trust is a direction, not a starting point.
+>
 
 ---
 
@@ -87,7 +76,6 @@ Security is not implemented in isolation. It is influenced by:
 
 - Clean role-based access model  
 
----
 
 ### **What Happens**
 
@@ -95,14 +83,10 @@ Security is not implemented in isolation. It is influenced by:
 - Overlapping permissions  
 - Lack of ownership  
 
----
-
-### **Example**
+### **Examples:**
 
 - Multiple teams creating roles independently  
 - Users accumulating excessive permissions over time  
-
----
 
 ### **Typical Adjustment**
 
@@ -110,17 +94,14 @@ Security is not implemented in isolation. It is influenced by:
 - Introduce role governance  
 - Periodic access reviews  
 
----
 
-### ⚠️ Common Mistake
+### **Common Mistake**
 
 - Treating IAM as a one-time setup  
 
----
-
-### 🧠 Insight
-
+>
 > IAM complexity grows faster than infrastructure complexity if not controlled.
+> 
 
 ---
 
@@ -134,28 +115,20 @@ Security is not implemented in isolation. It is influenced by:
 - Approval workflows  
 - Restricted access  
 
----
-
 ### **What Developers Need**
 
 - Speed  
 - flexibility  
 - minimal friction  
 
----
-
 ### **Typical Conflict**
 
 - Developers bypass security controls  
 - Security slows down delivery  
 
----
-
-### **Example**
+### **Examples:**
 
 - Hard-coded credentials used to avoid access delays  
-
----
 
 ### **Typical Adjustment**
 
@@ -163,17 +136,14 @@ Security is not implemented in isolation. It is influenced by:
 - Use managed identities and secrets vaults  
 - Automate access provisioning  
 
----
 
-### ⚠️ Common Mistake
+### **Common Mistake**
 
 - Designing security as a gate instead of an enabler  
 
----
-
-### 🧠 Insight
-
+>
 > Security that blocks developers will eventually be bypassed.
+>
 
 ---
 
@@ -186,31 +156,23 @@ Security is not implemented in isolation. It is influenced by:
 - Security implemented to pass audits  
 - Focus on checklists rather than risk  
 
----
-
-### **Example**
+### **Examples:**
 
 - Logging enabled but not monitored  
 - Encryption implemented but keys poorly managed  
-
----
 
 ### **Typical Adjustment**
 
 - Align controls with actual risks  
 - Use compliance as baseline, not end goal  
 
----
-
-### ⚠️ Common Mistake
+### **Common Mistake**
 
 - Confusing compliance with security  
 
----
-
-### 🧠 Insight
-
+>
 > Compliance ensures minimum standards — it does not guarantee security.
+>
 
 ---
 
@@ -223,7 +185,6 @@ Security is not implemented in isolation. It is influenced by:
 - Centralized secrets management  
 - No hard-coded credentials  
 
----
 
 ### **What Happens**
 
@@ -231,13 +192,9 @@ Security is not implemented in isolation. It is influenced by:
 - Inconsistent use of vaults  
 - Manual rotation  
 
----
-
-### **Example**
+### **Examples:**
 
 - Database passwords embedded in application configs  
-
----
 
 ### **Typical Adjustment**
 
@@ -245,17 +202,14 @@ Security is not implemented in isolation. It is influenced by:
 - Use managed identities  
 - Automate rotation  
 
----
-
-### ⚠️ Common Mistake
+### **Common Mistake**
 
 - Treating secrets management as optional  
 
----
 
-### 🧠 Insight
-
+>
 > Credential exposure is one of the most common and avoidable security risks.
+>
 
 ---
 
@@ -267,37 +221,27 @@ Security is not implemented in isolation. It is influenced by:
 
 - Network segmentation provides sufficient protection  
 
----
-
 ### **What Happens**
 
 - Over-reliance on firewalls  
 - Weak identity controls  
 
----
-
-### **Example**
+### **Examples:**
 
 - Systems trusted simply because they are “inside the network”  
-
----
 
 ### **Typical Adjustment**
 
 - Combine network controls with identity-based access  
 - Reduce implicit trust  
 
----
-
-### ⚠️ Common Mistake
+### **Common Mistake**
 
 - Treating network location as identity  
 
----
-
-### 🧠 Insight
-
+>
 > Network-based trust is insufficient in modern distributed systems.
+>
 
 ---
 
@@ -309,21 +253,15 @@ Security is not implemented in isolation. It is influenced by:
 
 - Security events can be detected easily  
 
----
-
 ### **What Happens**
 
 - Logs exist but are not analyzed  
 - Alerts are noisy or ignored  
 - No correlation across systems  
 
----
-
-### **Example**
+### **Examples:**
 
 - Unauthorized access attempt not detected due to lack of monitoring  
-
----
 
 ### **Typical Adjustment**
 
@@ -331,17 +269,13 @@ Security is not implemented in isolation. It is influenced by:
 - Implement meaningful alerts  
 - Correlate identity, network, and application events  
 
----
-
-### ⚠️ Common Mistake
+### **Common Mistake**
 
 - Collecting logs without using them  
 
----
-
-### 🧠 Insight
-
+>
 > Visibility is as important as prevention in security architecture.
+>
 
 ---
 
@@ -349,60 +283,27 @@ Security is not implemented in isolation. It is influenced by:
 
 ---
 
-### ❌ Over-engineered security
+### **Over-engineered security**
 
 - Too complex to operate  
 
----
 
-### ❌ Tool sprawl
+### **Tool sprawl**
 
 - Multiple tools with overlapping capabilities  
 
----
 
-### ❌ Lack of ownership
+### **Lack of ownership**
 
 - No clear accountability for security controls  
 
----
-
-### ❌ Reactive approach
+### **Reactive approach**
 
 - Security implemented after incidents  
 
----
-
-### ❌ Poor integration
+### **Poor integration**
 
 - Security not aligned with architecture  
-
----
-
-## 🔗 Connection to Other Domains
-
-Security architecture directly impacts:
-
-- **Application Architecture**  
-  *(e.g., authentication, authorization, secure APIs)*  
-
-- **Network Architecture**  
-  *(e.g., segmentation, controlled communication paths)*  
-
-- **Platform Engineering**  
-  *(e.g., identity integration, policy enforcement, IaC security controls)*  
-
-- **Observability**  
-  *(e.g., threat detection, anomaly monitoring)*  
-
-- **Resilience / BCP**  
-  *(e.g., incident response and recovery strategies)*  
-
----
-
-### 🧠 Key Insight
-
-> Weak security design creates systemic risk — it is not isolated to a single layer.
 
 ---
 
@@ -414,9 +315,9 @@ In enterprise environments, security architecture is not about achieving perfect
 - enabling secure operations  
 - balancing control with usability  
 
----
-
+>
 > The most effective security architectures are not the strictest — they are the most practical and sustainable.
+>
 
 ---
 

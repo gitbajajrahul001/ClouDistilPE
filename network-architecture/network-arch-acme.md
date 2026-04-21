@@ -207,26 +207,6 @@ At the end of initial transformation phases, ACME Corp had:
    (Selective communication allowed between zones where required)
 ```
 ---
-## 🔗 Impact on Other Domains
----
-
-These network decisions directly influenced:
-
-- **Application Architecture**  *(e.g., service communication patterns and latency considerations)*  
-
-- **Security Architecture**  *(e.g., enforcement of segmented trust boundaries)*  
-
-- **Platform Engineering**  *(e.g., need for standardized network provisioning via IaC)*  
-
-- **Observability**  *(e.g., need for end-to-end visibility across network and application layers)*  
-
-- **Resilience / BCP**  *(e.g., hybrid failover paths and regional connectivity)*  
-
->
-> Network architecture is not static — it evolves continuously as application needs, security requirements, and operational realities change.
->
-
----
 
 ## 🔍 Closing Thoughts
 
