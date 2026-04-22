@@ -19,8 +19,6 @@ The goal of this lab is to understand how that connectivity is created from firs
 
 # Lab 1 - Container Networking Foundation
 
----
-
 **Understanding Container Networking from First Principles with Linux Network Namespaces**
 
 When people first hear terms like _container networking_, _Kubernetes networking_, or _pod-to-pod communication_, it often sounds like a new and specialized domain. In reality, the foundation is much simpler *Container networking is largely Linux networking with isolation and virtual connectivity.*
@@ -88,22 +86,15 @@ In Linux terminology, that virtual cable is the **veth pair**. Within Linux-base
 
 ## Lab Topology
 
-This is the topology we are building:
+**Figure**: Connectivity between two network namespaces using a veth pair.
 
-ns1                         ns2  
-----                        ----  
-veth-ns1  <===========>  veth-ns2  
-10.0.0.1/24                10.0.0.2/24  
+![Lab 1 Topology]({{ "/assets/images/lab1-topology.png" | relative_url }})    
 
 Here:
 
 - *ns1* and *ns2* are network namespaces    
 - veth-ns1 and veth-ns2 are the two ends of the virtual link    
 - both ends are placed in the same subnet so they can communicate directly
-
-**Figure**: Connectivity between two network namespaces using a veth pair.
-
-![Lab 1 Topology]({{ "/assets/images/lab1-topology.png" | relative_url }})    
 
 ---
 
