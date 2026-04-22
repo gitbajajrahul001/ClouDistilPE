@@ -19,9 +19,9 @@ The goal of this lab is to understand how that connectivity is created from firs
 
 # Lab 1 - Container Networking Foundation
 
-## Understanding Container Networking from First Principles with Linux Network Namespaces
-
 ---
+
+**Understanding Container Networking from First Principles with Linux Network Namespaces**
 
 When people first hear terms like _container networking_, _Kubernetes networking_, or _pod-to-pod communication_, it often sounds like a new and specialized domain. In reality, the foundation is much simpler *Container networking is largely Linux networking with isolation and virtual connectivity.*
 
@@ -86,9 +86,7 @@ In Linux terminology, that virtual cable is the **veth pair**. Within Linux-base
 
 ---
 
-## **Lab Topology**
-
----
+## Lab Topology
 
 This is the topology we are building:
 
@@ -236,7 +234,7 @@ If this works, Linux has successfully done all of the following:
     
 This proves that the two isolated network namespaces are now able to communicate.
 
-*Important Concept: What Does exec Mean Here?*
+**Important Concept: What Does exec Mean Here?**
 
 In commands like this:
 ```text
@@ -380,17 +378,22 @@ And at a broader level *Kubernetes networking is largely Linux networking automa
 **Key Takeaways**
 
 1\. A network namespace is an isolated network environment - It has its own interfaces, IP addresses, routes, and ARP state.
+
 2\. Isolation is the default - Two namespaces cannot communicate unless explicitly connected.
+
 3\. A veth pair is a virtual cable - It provides direct connectivity between isolated namespaces.
+
 4\. IP addresses belong to interfaces -A process or container uses the namespace's interface and its IP.
 5\. Routing and ARP still matter - Even in a virtual container-like setup, Linux still uses routing and neighbor resolution.
+
 6\. The Linux kernel is doing the real work - The kernel is responsible for packet delivery, ARP cache management, interface state, and routing decisions.
+
 
 **A Clean Final Mental Model**
 
 If you want one clear sentence to carry forward from this lab, let it be this *A container or pod network is not a special kind of network. It is an isolated Linux network stack connected through virtual interfaces and managed by the kernel.*
 
-*Commands Used in This Lab*
+**Commands Used in This Lab**
 
 ```text
 sudo ip netns add ns1

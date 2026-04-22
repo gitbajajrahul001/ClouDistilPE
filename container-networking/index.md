@@ -13,14 +13,14 @@ This series explores container networking from first principles, gradually conne
 
 ---
 
-# 🧭 Container Networking Journey (From Foundations to Architecture)
-
+# 🧭 Container Networking Journey 
+   
 Container networking is often introduced through platform abstractions, but it is fundamentally built on standard Linux networking principles. This journey starts by understanding what powers containers underneath, then builds up networking concepts from first principles, and finally connects them to platform behavior and architectural decisions.
 
 | Layer | Description | Link |
 |------|-------------|------|
 | Core Foundation | Understanding how containers actually work — namespaces, cgroups, and the underlying Linux primitives | [Open](what-powers-containers.md) |
-| Networking Foundation | Understanding namespaces, veth, IP addressing, ARP, and routing from first principles | [Open](container-networking-foundation.md) |
+| Networking Foundation LAB | Understanding namespaces, veth, IP addressing, ARP, and routing from first principles | [Open](container-networking-foundation.md) |
 | Platform Mapping | How container runtimes and Kubernetes translate these primitives into real networking models | [Coming Soon]() |
 | Architectural Thinking | How these concepts influence design decisions, scalability, and troubleshooting in real-world environments | [Coming Soon]() |
 
