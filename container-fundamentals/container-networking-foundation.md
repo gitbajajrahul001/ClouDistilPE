@@ -3,9 +3,25 @@ layout: default
 title: Lab-1|Container Networking Foundation
 ---
 
+## Understanding Container Networking from First Principles
+
+---
+
+In the previous chapter, we explored what actually powers containers — how isolation is created using namespaces and how resource control is enforced using cgroups.
+
+This lab builds on that foundation by focusing on one specific aspect **Network isolation and connectivity**
+
+Container networking is not a new networking model. It is Linux networking applied within isolated environments and then connected using virtual constructs.
+
+The goal of this lab is to understand how that connectivity is created from first principles.
+
+---
+
 # Lab 1 - Container Networking Foundation
 
 ## Understanding Container Networking from First Principles with Linux Network Namespaces
+
+---
 
 When people first hear terms like _container networking_, _Kubernetes networking_, or _pod-to-pod communication_, it often sounds like a new and specialized domain. In reality, the foundation is much simpler *Container networking is largely Linux networking with isolation and virtual connectivity.*
 
@@ -13,43 +29,53 @@ This lab is designed to build that understanding from first principles. The goal
 
 **What This Lab Teaches**
 
-In this lab, we build a very small network manually inside Linux. We create two isolated network environments, connect them using a virtual link, assign IP addresses, and verify communication.
-
 By the end of this lab, you should understand:
 
-- what a **network namespace** is    
-- why isolated environments cannot communicate by default    
-- what a **veth pair** is    
-- how IP addressing is applied in a namespace    
-- why ARP and routing are still relevant    
-- why this matters for containers and Kubernetes
+- how network namespaces isolate networking
+- why isolated environments cannot communicate by default
+- how veth pairs create connectivity
+- how IP addressing works inside a namespace
+- why ARP and routing still apply even in isolated environments
     
 
-## Core Concept 1: What is a Network Namespace?
+---
 
-A **network namespace** is an isolated network environment inside the Linux kernel. Each network namespace has its own:
+## Core Concept 1: Network Namespace in Context
 
-- network interfaces    
-- IP addresses    
-- routing table    
-- ARP or neighbor table
-    
-That means Linux can make one machine behave like multiple separate networked systems. A useful mental model is this:
+---
 
-- one Linux host    
-- multiple isolated network worlds inside it
-    
-If two namespaces are created and nothing else is done, they cannot communicate with each other. That is because isolation is the default behavior.
+A network namespace is one of the isolation mechanisms discussed in the foundation chapter.
 
-This matters because containers rely heavily on this concept. In simple terms *A container is a process running with isolated resources, and one of those resources is often its network namespace.*
+It specifically isolates the networking stack of a process.
+
+Each network namespace has its own:
+
+- network interfaces
+- IP addresses
+- routing table
+- ARP (neighbor) table
+
+This means that even though multiple namespaces exist on the same Linux system, they behave like independent network environments.
+
+At this point, it is important to connect this back to containers:
+
+A container uses multiple namespaces together, but in this lab, we are isolating and exploring only the network namespace to understand its behavior in detail.
+
+---
 
 ## Core Concept 2: Why Communication Does Not Exist by Default
+
+---
 
 When two namespaces are created, they are isolated from each other. The important point is not just that they have separate IP space. The more fundamental reason is *There is no interface, no link, and no path between them.*
 
 So even though both namespaces exist on the same Linux machine, Linux treats them as separate network stacks. This is one of the most important ideas in container networking *Connectivity is not assumed. It must be explicitly created.*
 
+---
+
 ## Core Concept 3: What is a veth Pair?
+
+---
 
 A **veth pair** means **virtual Ethernet pair**. It is a Linux construct that behaves like a virtual cable with two ends. If a packet enters one end of the pair, it appears on the other end. That makes it a perfect way to connect two isolated namespaces. You can think of it as:
 >
@@ -58,7 +84,11 @@ A **veth pair** means **virtual Ethernet pair**. It is a Linux construct that be
 
 In Linux terminology, that virtual cable is the **veth pair**. Within Linux-based container environments, this is standard terminology and a standard mechanism.
 
-**Lab Topology**
+---
+
+## **Lab Topology**
+
+---
 
 This is the topology we are building:
 
@@ -72,7 +102,12 @@ Here:
 - *ns1* and *ns2* are network namespaces    
 - veth-ns1 and veth-ns2 are the two ends of the virtual link    
 - both ends are placed in the same subnet so they can communicate directly
-    
+
+**Figure**: Connectivity between two network namespaces using a veth pair.
+
+![Lab 1 Topology]({{ "/assets/images/lab1-topology.png" | relative_url }})    
+
+---
 
 ### **Step 1: Create Two Network Namespaces**
 
@@ -95,8 +130,6 @@ At this point, they exist, but they are not connected to each other.
 This is the first important lesson *Isolation comes first. Connectivity comes later.* If you stop here, the namespaces cannot communicate, because no interfaces or routes exist between them.
 
 
----
-
 ### **Step 2: Create a veth Pair**
 
 ```text
@@ -118,7 +151,6 @@ This is not just an interface. It is a connected pair. If traffic enters veth-ns
 
 At this stage, both interfaces still exist in the host namespace, not yet inside ns1 or ns2.
 
----
 
 ### **Step 3: Move Each End into a Namespace**
 
@@ -146,7 +178,6 @@ veth-ns1  <=======>  veth-ns2
 
 This is the point where the namespaces now have a physical path between them, but they still do not have IP addresses yet.
 
----
 
 ### **Step 4: Assign IP Addresses**
 
@@ -166,7 +197,6 @@ This assigns IP addresses to the interfaces inside the namespaces:
 
 An important clarification here *IP addresses belong to interfaces, not directly to containers or processes.* So when people say "a container has an IP," what they usually mean is *the network interface inside that container's namespace has an IP*. That distinction is important because it explains why multiple processes inside the same namespace can share the same network identity.
 
----
 
 ### **Step 5: Bring the Interfaces Up**
 
@@ -184,8 +214,6 @@ This enables the interfaces. By default, newly created interfaces are typically 
 **What to understand**
 
 Without this step, even correctly addressed interfaces still will not communicate. This is similar to a cable being present but the interface itself being administratively down.
-
----
 
 ### **Step 6: Test Connectivity**
 
@@ -216,8 +244,6 @@ sudo ip netns exec ns1 ping 10.0.0.2
 ```
 the word exec means *run this command inside the given namespace*. So this does not permanently move your shell into ns1. It simply runs one command using the network context of ns1. This is why the command behaves as though it is originating from inside that namespace.
 
----
-
 ### **Step 7: Inspect the Interfaces**
 
  sudo ip netns exec ns1 ip link
@@ -237,8 +263,6 @@ This shows that the interface is paired with another interface. That pairing is 
 **What to understand**
 
 This confirms the core idea *a veth pair acts like a two-ended virtual Ethernet cable*
-
----
 
 ### **Step 8: Check the Routing Table**
 
@@ -263,8 +287,6 @@ sudo ip netns exec ns2 ip route   `
 This is a critical point. Even though the two namespaces are in the same subnet, Linux still makes a routing decision. In a Linux system, the kernel checks the routing table to determine which interface should be used. So although this feels similar to same-subnet switching in traditional networks, the Linux kernel is still using routing logic to decide packet delivery.
 
 A precise way to say it is *The Linux kernel makes a routing decision and then uses neighbor resolution to deliver the packet directly on the connected link.*
-
----
 
 ### **Step 9: Check the ARP or Neighbor Table**
 
@@ -292,8 +314,6 @@ This means:
 - the first communication may require ARP resolution
     
 - repeated communication does not need repeated broadcast, because the result is cached. That is why ARP is still important, even in a virtual network built on one machine.
-
----
 
 ### **Step 10: Observe Live Traffic**
 
@@ -337,9 +357,10 @@ A simplified sequence looks like this:
 
 ## **Why This Lab Matters for Containers and Kubernetes**
 
-This lab is small, but the ideas are foundational.
+---
 
-In Linux-based container platforms:
+
+This lab is small, but the ideas are foundational. In Linux-based container platforms:
 
 - isolation is created using namespaces
     
@@ -402,13 +423,6 @@ sudo ip netns exec ns2 ip neigh
 
 sudo ip netns exec ns2 tcpdump -i veth-ns2
 ```
-----
-## Lab Topology
-
-**Figure**: Connectivity between two network namespaces using a veth pair.
-
-![Lab 1 Topology]({{ "/assets/images/lab1-topology.png" | relative_url }})
-
 ---
 
-[⬅ Back to Series Home](index.md) |
+[⬅ Back to Series Home](index.md) | [⬅ Back to What Powers Containers](what-powers-containers.md) | 
