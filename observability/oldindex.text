@@ -1,0 +1,32 @@
+---
+layout: default
+title: Observability in the Enterprise
+---
+
+
+# 📚 Observability in the Enterprise
+
+Observability is often approached as a set of tools for monitoring systems — dashboards, alerts, and logs.
+
+In enterprise environments, however, observability goes far beyond monitoring. It defines how effectively teams can understand system behavior, diagnose issues, and make informed decisions across increasingly complex, distributed architectures.
+
+This series explores how observability is designed and implemented in real-world systems — not just to detect failures, but to understand them. The focus is on how visibility is achieved, where it breaks down, and how organizations evolve from fragmented monitoring to meaningful, actionable insights.
+
+Each topic is covered in three layers:
+- **Foundations** — understanding core concepts, pillars, and design principles  
+- **Consulting Approach** — real-world challenges, trade-offs, and implementation realities  
+- **Case Study** — how these decisions play out in practice (ACME Corp)  
+
+---
+
+## 🧭 Observability Journey
+
+Observability is not just about collecting data — it is about enabling system understanding across applications, infrastructure, and operations.
+
+| Layer | Description | Link |
+|------|-------------|------|
+| Foundations | Understanding observability principles, metrics, logs, and tracing | [Open](observability-foundation.md) |
+<!-- | Consulting Approach | Real-world observability challenges, tool sprawl, and operational gaps | [Open](observability-consulting.md) | -->
+<!-- | Case Study | Observability evolution in practice through ACME Corp transformation | [Open](observability-acme.md) | -->
+
+---

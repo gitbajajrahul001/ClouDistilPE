@@ -16,7 +16,7 @@ If you want to understand:
 - why architectures evolve  
 - how different domains connect  
 
-then this is where everything comes together.
+then this is where everything comes together and **develops a mindset of a Lead Architect**
 
 ---
 
