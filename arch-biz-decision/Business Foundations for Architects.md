@@ -299,6 +299,8 @@ In enterprise environments, cost optimization is not treated as a tactical exerc
 | **Technical View** | Reduction in infrastructure or operational cost |
 | **Business View** | - Margin expansion <br> - Reallocation of capital to higher-value initiatives <br> - Improved financial efficiency |
 
+---
+
 ### **How Leadership Evaluates Cost Optimization**
 
 Cost reduction is rarely the end goal. Leadership evaluates:
@@ -364,9 +366,7 @@ Transformation without a clear value model is perceived as **cost expansion**, n
 | **Leadership Perception** | Program seen as expensive with unclear returns |
 | **Operational Reality** | Legacy inefficiencies carried into cloud environments |
 
----
-
-### **Typical Scenario**
+*Typical Scenario*
 
 | Initiative | Outcome |
 |-----------|--------|
@@ -374,9 +374,7 @@ Transformation without a clear value model is perceived as **cost expansion**, n
 | Increased cloud consumption | Costs rise due to lack of governance |
 | Limited business alignment | No measurable improvement in business KPIs |
 
----
-
-### **Why This Happens**
+*Why This Happens*
 
 - Cloud treated as an infrastructure migration, not a transformation  
 - Lack of alignment between IT initiatives and business priorities  
@@ -399,7 +397,7 @@ The success of a cloud program is not measured by migration completion — it is
 
 ---
 
-# 🔷 7. Mapping Architecture to Business (From Design to Decision)
+## 🔷 7. Mapping Architecture to Business (From Design to Decision)
 
 In enterprise environments, the impact of architecture is not determined by what is built — it is determined by **how it is positioned and understood**. The same technical decision can:
 
@@ -438,11 +436,11 @@ The role of an architect is to **bridge these two worlds**. The effectiveness of
 
 **What Changes in Real Conversations**
 
-❌ **Technical Framing**
+❌ Technical Framing
 - “We need microservices for scalability”  
 - “We should improve observability”  
 
-✅ **Business Framing**
+✅ Business Framing
 - “We want to accelerate feature delivery without increasing operational risk”  
 - “We want to reduce downtime impact and improve service reliability”  
 
@@ -450,7 +448,7 @@ The decision is rarely about the technology — it is about the **outcome the te
 
 ---
 
-### 🔍 **What This Means for Architects**
+## 🔍 **What This Means for Architects**
 
 When proposing any solution, you should be able to answer:
 
@@ -458,9 +456,7 @@ When proposing any solution, you should be able to answer:
 - How does this impact cost, revenue, or risk?  
 - What measurable improvement does this enable?  
 
----
-
-## 🔁 **Practical Reality**
+### 🔁 **Practical Reality**
 
 - Strong architectures fail to get approved due to poor articulation  
 - Average architectures get approved due to strong business alignment  
