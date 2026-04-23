@@ -44,7 +44,7 @@ This series focuses on building that capability.
 
 ## 🚀 Start Here
 
-👉 [Business Foundations for Architects](Business Foundations for Architects.md)
+👉 [Part-1: Business Foundations for Architects](Business Foundations for Architects.md)
 
 ---
 
