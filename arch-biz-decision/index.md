@@ -14,9 +14,7 @@ It is approved because it:
 - improves financial outcomes  
 - reduces risk  
 
-Most architects design systems. Very few can **connect those systems to business decisions**.
-
-This series focuses on building that capability.
+Most architects design systems. Very few can **connect those systems to business decisions** and this series focuses on building that capability.
 
 ---
 
@@ -44,8 +42,7 @@ This series focuses on building that capability.
 
 ## 🚀 Start Here
 
-👉 [Part-1: Business Foundations for Architects](Business Foundations for Architects.md)
+👉 [Business Foundations for Architects][Open](Business Foundations for Architects.md)
 
----
 
 > The difference between a good architect and an influential one is the ability to connect technology to business outcomes.

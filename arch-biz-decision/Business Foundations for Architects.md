@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Business Foundations for Architects | Part 1
+title: Business Foundations for Architects
 ---
 
-# Business Foundations for Architects – Part 1
+# Business Foundations for Architects
 
 ## 🧭 Why This Matters
 
