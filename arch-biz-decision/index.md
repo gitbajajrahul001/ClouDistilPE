@@ -5,45 +5,50 @@ title: Architecture, Business & Decision Making
 
 # Architecture, Business & Decision Making
 
-## 📚 Why This Series Exists
+## Why This Series Exists
 
-In enterprise environments, architecture is not approved because it is technically correct.
+In enterprise environments, architecture is not evaluated based on technical correctness alone.
 
-It is approved because it:
-- creates business value  
-- improves financial outcomes  
-- reduces risk  
+It is evaluated based on how it contributes to:
+- business growth  
+- financial efficiency  
+- risk management  
 
-Most architects design systems. Very few can **connect those systems to business decisions** and this series focuses on building that capability.
+This is the lens through which leadership makes decisions.
+
+Most architects are trained to design systems.  
+Very few are trained to **connect those systems to business outcomes and influence decisions**.
+
+This series focuses on building that capability.
 
 ---
 
-## 🧭 What This Series Covers
+## What This Series Covers
 
 - **Business Foundations**  
-  *(how enterprises make money and measure performance)*  
+  *(how enterprises evaluate performance and make decisions)*  
 
 - **Financial Thinking**  
-  *(P&L, cost structures, budgeting, and impact of IT decisions)*  
+  *(P&L, cost structures, budgeting, and financial impact of technology decisions)*  
 
 - **Architecture to Business Translation**  
-  *(explaining technical decisions in terms of outcomes)*  
+  *(positioning technical decisions in terms of outcomes)*  
 
 - **ROI & Business Case**  
-  *(how investments are evaluated and approved)*  
+  *(how investments are evaluated, justified, and challenged)*  
 
 - **CXO Communication**  
-  *(how different stakeholders think and decide)*  
+  *(how different stakeholders interpret and act on decisions)*  
 
 - **Decision Frameworks**  
-  *(how trade-offs are made in real environments)*  
+  *(how trade-offs are evaluated under real-world constraints)*  
 
 ---
 
-## 🚀 Start Here
+## Start Here
 
 👉 [Business Foundations for Architects](Business Foundations for Architects.md)
 
+---
 
-
-> The difference between a good architect and an influential one is the ability to connect technology to business outcomes.
+> Architecture becomes valuable not when it is well-designed, but when it is clearly connected to how the business creates, measures, and sustains value.
