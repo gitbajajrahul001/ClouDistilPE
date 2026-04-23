@@ -5,7 +5,7 @@ title: Home
 
 # 🏢 Enterprise Internals
 
-### **How Enterprise Systems, Architecture, Automation, and Strategy actually work in practice**
+### **How Enterprise Systems, Architecture, Automation, Strategy, and Decision Making actually work in practice**
 
 *Over the years*, I realized that while there is no shortage of information available online, most of it is either too theoretical, too fragmented, or disconnected from how things actually work in real-world enterprise environments. This often makes it difficult for professionals to build a clear, end-to-end understanding of complex topics. 
 
@@ -59,4 +59,4 @@ Breaking down how enterprise systems are actually designed — across applicatio
 
 Bridging the gap between technology and business outcomes — focusing on decision-making, ROI, and CXO-level communication.
 
-- 💼 [Architecture to Business Translation](enterprise-decision-making-value-realization)
+- 💼 [Architecture, Business, and Decision Making](arch-biz-decision)
