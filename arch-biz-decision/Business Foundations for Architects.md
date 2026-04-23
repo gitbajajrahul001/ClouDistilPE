@@ -5,7 +5,7 @@ title: Business Foundations for Architects
 
 # Business Foundations for Architects
 
-## 🧭 Why This Matters
+## Why This Matters
 
 In enterprise environments, architecture is not evaluated in isolation. Every system, platform, or transformation initiative is ultimately assessed based on how it contributes to:
 
@@ -17,7 +17,7 @@ This is the lens through which leadership makes decisions.
 
 ---
 
-## 🧭 The Gap Most Architects Face
+## The Gap Most Architects Face
 
 Architects are trained to think in terms of:
 - scalability  
@@ -33,7 +33,7 @@ Without bridging this gap, even well-designed architectures struggle to gain tra
 
 ---
 
-## 🧠 What This Means in Practice
+## What This Means in Practice
 
 If you do not understand how a business operates and evaluates investments, you will:
 
@@ -41,7 +41,6 @@ If you do not understand how a business operates and evaluates investments, you 
 - find it difficult to influence stakeholders  
 - remain confined to technical conversations  
 
----
 
 > 
 > Architecture becomes valuable not when it is well-designed, but when it is clearly connected to how the business creates, measures, and sustains value.
@@ -51,13 +50,12 @@ If you do not understand how a business operates and evaluates investments, you 
 
 ## 🔷 1. How Businesses Actually Work (From a Decision Perspective)
 
----
 
-At a high level, business performance is often simplified as *Revenue – Cost = Profit*
+At a high level, business performance is often simplified as **Revenue – Cost = Profit**
 
 However, in enterprise environments, this equation is not used to explain the business — it is used to *evaluate decisions*.
 
-**How Leaders Actually Think**
+### **How Leaders Actually Think**
 
 Business leaders do not look at revenue, cost, and profit as static numbers.  They look at them as **levers**:
 
@@ -65,7 +63,7 @@ Business leaders do not look at revenue, cost, and profit as static numbers.  Th
 - **Cost** → efficiency, scalability, operational control  
 - **Profit / Margin** → sustainability, competitiveness, investor confidence  
 
-**Where Technology Fits**
+### **Where Technology Fits**
 
 Technology decisions are evaluated based on how they influence these levers:
 
