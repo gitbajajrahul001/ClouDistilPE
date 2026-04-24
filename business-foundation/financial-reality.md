@@ -236,3 +236,5 @@ You are not just designing systems — you are influencing how capital is alloca
 
 ---
 
+[⬅ Back to Series Home](index.md) |  [Next: Decision Dynamics ➡](decision-dynamics.md)
+

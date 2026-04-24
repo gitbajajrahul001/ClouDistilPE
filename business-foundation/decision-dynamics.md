@@ -226,3 +226,6 @@ This is not about communication. This is about:
 Architecture succeeds when it fits the context — not just when it is correct.
 
 ---
+
+
+[⬅ Back to Series Home](index.md) | [⬅ Back to Financial Reality](financial-reality.md) |  [Next: Business Case Thinking ➡](business-case-thinking.md)

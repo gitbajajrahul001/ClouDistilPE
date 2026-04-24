@@ -463,3 +463,5 @@ When proposing any solution, you should be able to answer:
 - The difference is rarely technical — it is **context and communication**  
 
 ---
+
+[⬅ Back to Series Home](index.md) |  [Next: Financial Reality ➡](financial-reality.md)
