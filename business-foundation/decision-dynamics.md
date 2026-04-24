@@ -14,15 +14,12 @@ The problem is not lack of knowledge. The problem is this:
 - you walk into a discussion with a solution  
 - the room is evaluating a decision  
 
----
-
 ### **What you think you are doing**
 
 - presenting architecture  
 - explaining benefits  
 - walking through design  
 
----
 
 ### **What the room is actually doing**
 
@@ -69,15 +66,13 @@ The decision starts drifting away — not because you are wrong, but because you
 
 At this moment, most architects do one of two things:
 
----
-
 ### **Option 1: Go deeper technically**
 
 - explain architecture patterns  
 - show diagrams  
 - justify design choices  
 
-**Result**
+**Result:**
 
 - more confusion  
 - more resistance  
@@ -90,7 +85,7 @@ At this moment, most architects do one of two things:
 - “this is industry best practice”  
 - “this is the right way to do it”  
 
-**Result**
+**Result:**
 
 - perception of rigidity  
 - loss of trust  
@@ -114,8 +109,6 @@ Instead of saying *“We need microservices”*. You shift to:
 - “Deployments are becoming high-risk”
 - “We need a way to improve delivery without increasing failure risk”
 
----
-
 ### **What changes in the room**
 
 - discussion moves from solution → problem  
@@ -128,9 +121,7 @@ You didn’t change the architecture — you changed the conversation.
 
 ## 🔷 5. What Translation Actually Means
 
-Translation is not *replacing technical words with business words*.
-
-It is:
+Translation is not *replacing technical words with business words*. It is:
 
 - exposing the underlying problem  
 - connecting it to business impact  
@@ -206,14 +197,6 @@ Then they gradually introduce:
 
 ---
 
-### 🔁 **Practical Shift**
-
-Before: *“Here is the solution”*
-
-After: *“Here is the problem we need to solve”*
-
----
-
 ## 🔷 9. The Real Skill You Are Building
 
 This is not about communication. This is about:
@@ -224,6 +207,10 @@ This is not about communication. This is about:
 - adapting in real time  
 
 Architecture succeeds when it fits the context — not just when it is correct.
+
+```text
+This is a Practical Shift **FROM** *“Here is the solution”* -> **TO** *“Here is the problem we need to solve”*
+```
 
 ---
 

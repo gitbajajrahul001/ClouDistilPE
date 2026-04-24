@@ -34,9 +34,7 @@ It:
 - supports operations  
 - enables business functions  
 
----
-
-### **What this means in practice**
+**What this means in practice**
 
 - IT is expected to justify every major investment  
 - IT spend is continuously challenged  
@@ -48,21 +46,19 @@ You are solving business problems — but you are being evaluated as a cost.
 
 ## 🔷 3. Why Good Architecture Still Gets Challenged
 
-Consider this:
+Consider that **You propose:**
 
-You propose:
 - modernization  
 - platform engineering  
 - cloud transformation  
 
-From your perspective:
+**From your perspective:**
+
 - better scalability  
 - cleaner design  
 - long-term benefits  
 
----
-
-### **From leadership perspective:**
+**From leadership perspective:**
 
 | Question | What They Are Actually Asking |
 |---------|-----------------------------|
@@ -85,9 +81,7 @@ Every decision you make eventually shows up as:
 - improved efficiency  
 - avoided loss  
 
----
-
-### **Example**
+**Example**
 
 You move to cloud:
 
@@ -95,9 +89,7 @@ You move to cloud:
 - operational cost may increase initially  
 - efficiency may improve over time  
 
----
-
-### **What leadership sees:**
+**What leadership sees:**
 
 - cost trend increasing  
 - unclear value realization  
@@ -117,17 +109,13 @@ Most cloud programs follow this pattern:
 | Initial period | Costs increase |
 | Expected phase | Efficiency gains (often delayed) |
 
----
-
-### **Where it breaks**
+**Where it breaks**
 
 - no cost governance  
 - no clear efficiency gains  
 - no link to business outcomes  
 
----
-
-### **Leadership perception:**
+**Leadership perception:**
 
 - “We are spending more”  
 - “We don’t see the benefit”  
@@ -151,9 +139,7 @@ They see:
 - margin pressure  
 - budget allocation  
 
----
-
-### **When you propose something, they translate it to:**
+**When you propose something, they translate it to:**
 
 | Your Proposal | CFO Interpretation |
 |--------------|-------------------|
@@ -175,9 +161,7 @@ Budgets are not infinite. Every initiative competes with:
 - regulatory requirements  
 - operational necessities  
 
----
-
-### **What happens in reality**
+**What happens in reality**
 
 - high ROI initiatives get priority  
 - unclear value initiatives get delayed  
@@ -211,7 +195,7 @@ Delivery completes the project — value realization justifies it.
 
 ---
 
-## 🔷 9. Putting It All Together
+## 🔍 What This Means for Architects
 
 At a practical level, this is how your work is evaluated:
 
@@ -220,11 +204,8 @@ At a practical level, this is how your work is evaluated:
 Proposal → Cost Impact → Expected Value → Measured Outcome → Funding Decision
 
 ```
----
 
-## 🔍 What This Means for Architects
-
-Before proposing any architecture, you should think:
+*Therefore*, before proposing any architecture, you should think:
 
 - What is the cost impact?  
 - When will value be visible?  
@@ -232,9 +213,9 @@ Before proposing any architecture, you should think:
 - What risk does it reduce?  
 
 
-You are not just designing systems — you are influencing how capital is allocated.
+You are not just designing systems — *you are influencing how capital is allocated.*
 
 ---
 
-[⬅ Back to Series Home](index.md) |  [Next: Decision Dynamics ➡](decision-dynamics.md)
+[⬅ Back to Series Home](index.md) |  [⬅ Back to Business Foundation](business-foundations.md) | [Next: Decision Dynamics ➡](decision-dynamics.md)
 
