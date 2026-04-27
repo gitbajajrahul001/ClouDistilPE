@@ -1,3 +1,9 @@
+---
+layout: default
+title: Azure Architecture (Not What You Think)
+---
+
+
 ## Azure Architecture (Not What You Think)
 
 This series focuses on how Azure actually behaves in real-world architectures — beyond documentation and diagrams.
@@ -9,11 +15,9 @@ Instead of explaining what services do, it explores:
 *   Nuances that impact real systems
 *   Why things break — even when they look correct
 
-* * *
+---
 
 ### What to Expect
-
-# 
 
 Each part breaks down:
 
@@ -23,7 +27,7 @@ Each part breaks down:
 *   Where designs fail
 *   How to think like an architect
 
-* * *
+---
 
 ### Series
 
@@ -33,5 +37,5 @@ Each part breaks down:
 | **Part 2** | Private Connectivity: DNS, Private Endpoint, and Silent Failures | [Coming Soon](networking-fundamentals.md) |
 | **Part 3** | DNS: The Hidden Control Plane | [Coming Soon](networking-fundamentals.md) |
 
-* * *
+---
 
