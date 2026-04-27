@@ -35,53 +35,14 @@ then this is where everything comes together — helping you think like a **tech
 - [Architecting Azure - But Not What You Think](azure-not-what-you-think)
 
 
+---
 
+## 🚀 Who This Is For
 
-
-### 📊 Enterprise Sourcing: Inside the RFP Process(rfp)
-
-Understanding how enterprises define requirements, evaluate providers, and execute sourcing decisions.
-
-- 📑 [Customer View](rfp/customer)  
-- 🤝 [Provider View](rfp/provider)  
+- Enterprise Architects  
+- Cloud & Technology Consultants  
+- Pre-sales & Solution Architects  
+- Procurement & Vendor Management teams  
 
 ---
 
-### ☁️ Cloud Transformation Journey
-
-From strategy to execution — combining structured frameworks with real-world implementation and case study.
-
-- ☁️ [Architecting Enterprise Cloud Adoption](cloud-adoption-blueprint)
-
----
-
-### 🧱 Architecture Deep Dive
-
-Breaking down how enterprise systems are actually designed — across application, network, security, and operational layers.
-
-- 🧱 [Application Architecture in the Enterprise](application-architecture)  
-- 🌐 [Network Architecture in the Enterprise](network-architecture)  
-- 🔐 [Security Architecture in the Enterprise](security-architecture)  
-- 📊 [Observability in the Enterprise](observability)  
-<!-- - 🔗 [Container Networking Architecture in the Enterprise](container-networking) -->
-
----
-
-### 💼 Architecture & Business Thinking
-
-Bridging the gap between technology and business outcomes — focusing on decision-making, ROI, and CXO-level communication.
-
-- 💼 [Architecture, Business, and Decision Making](business-foundation)
-
-
-### 💼 Azure (Not What You Think)
-
-Most Azure content explains what services do. This series focuses on something more important:
-
-- What actually happens
-- Where designs break in real environments
-- The gaps between documentation and reality
-
-It is a deep dive into nuances, misconceptions, and architectural caveats across Azure networking, security, and platform design.
-
-- 🔗 [Networking Fundamentals-What actually happens](azure-not-what-you-think)
