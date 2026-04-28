@@ -37,15 +37,17 @@ The organization is transitioning to **Azure (primary)** with **future AWS adopt
 
 | Phase | Section | Focus Area |
 |------|--------|-----------|
-| 1 | [Strategy & Discovery](strategy-n-discovery.md) | Business drivers, stakeholders, constraints |
-| 2 | [Cloud Operating Model](phase2-operating-model.md) | Governance, FinOps, platform ownership |
-| 3 | [Landing Zone Architecture](phase3-landing-zone.md) | Azure foundation, identity, network, security |
-| 4 | [Workload Assessment](phase4-workloads.md) | App classification, migration strategy |
-| 5 | [Migration Factory](phase5-migration.md) | Execution model, waves, tooling |
-| 6 | [Security & Compliance](phase6-security.md) | Regulatory controls, risk framework |
-| 7 | [FinOps & Cost Strategy](phase7-finops.md) | Cost control, optimization, ROI |
-| 8 | [Hybrid & Multi-Cloud](phase8-hybrid.md) | Azure + AWS + On-Prem strategy |
-| 9 | [Governance & Execution](phase9-governance.md) | Steering, ARB, decision frameworks |
+| 1 | [CXO Discussion-Simulations](cxo-discussion.md) | CXO Discussion Simulation |
+| 2 | [Transformation Journey- Mindset Building Questions](mindset-building-questions.md) | Handling tough situations during transformations |
+| 3 | [Strategy & Discovery](strategy-n-discovery.md) | Business drivers, stakeholders, constraints |
+| 4 | [Cloud Operating Model](phase2-operating-model.md) | Governance, FinOps, platform ownership |
+| 5 | [Landing Zone Architecture](phase3-landing-zone.md) | Azure foundation, identity, network, security |
+| 6 | [Workload Assessment](phase4-workloads.md) | App classification, migration strategy |
+| 7 | [Migration Factory](phase5-migration.md) | Execution model, waves, tooling |
+| 8 | [Security & Compliance](phase6-security.md) | Regulatory controls, risk framework |
+| 9 | [FinOps & Cost Strategy](phase7-finops.md) | Cost control, optimization, ROI |
+| 10 | [Hybrid & Multi-Cloud](phase8-hybrid.md) | Azure + AWS + On-Prem strategy |
+| 11 | [Governance & Execution](phase9-governance.md) | Steering, ARB, decision frameworks |
 
 ---
 
