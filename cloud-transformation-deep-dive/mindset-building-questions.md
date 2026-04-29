@@ -583,3 +583,49 @@ Answer that includes:
 
 ---
 
+## 🔥 **Scenario — First Workload Decision**
+
+You have a simple application:
+
+*   3-tier app (Web + App + DB)
+*   Running on VMs today
+*   Moderate usage
+*   No strict regulatory constraints
+*   Some performance issues on-prem
+
+### **Would you:**
+
+1.  Lift-and-shift all 3 tiers to VMs in Azure
+2.  Replatform partially (if yes, what?)
+3.  Fully modernize (if yes, how?)
+
+### **Your task**
+
+Answer that focues on:
+
+*   practical decision
+*   reasoning
+*   trade-offs
+
+---
+
+## **Sample Response**
+
+You could say:
+
+- For this application, I would take a selective replatforming approach rather than treating all tiers the same.
+- The **web tier** is a good candidate for Azure App Service because it can benefit from scaling, managed runtime, and reduced operational overhead.
+-  For the **app tier**, I would initially lift-and-shift with right-sizing to reduce change risk, while assessing whether it can later move to App Service, containers, or AKS.
+- For the **database tier**, I would use a phased approach — migrate as-is first if timelines or risk demand it, then move to Azure SQL or another managed database service after compatibility, performance, and application changes are validated.
+
+This gives us quick migration progress without blocking future modernization.
+
+
+## Key lesson
+
+- Modernize where value is clear,
+- Migrate where risk is high, and
+- Keep a path open for later evolution.
+
+---
+
