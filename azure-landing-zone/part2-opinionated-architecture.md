@@ -36,9 +36,8 @@ And what usually happens?
 
 > Every team answers these differently.
 
-* * *
 
-## The Result
+### **The Result**
 
 *   inconsistent architectures
 *   security gaps
@@ -62,7 +61,7 @@ You define:
 
 * * *
 
-## 🔥 Key Idea
+### 🔥 Key Idea
 
 It does NOT say:
 
@@ -74,7 +73,7 @@ It says:
 
 * * *
 
-# 🧠 Why This Matters (Real World)
+## 🧠 Why This Matters (Real World)
 
 In a bank like yours, if you allow flexibility everywhere:
 
@@ -91,9 +90,9 @@ In a bank like yours, if you allow flexibility everywhere:
 
 * * *
 
-# 🔒 What an Opinionated Architecture Enforces
+## 🔒 What an Opinionated Architecture Enforces
 
-## 1\. Structure
+### **1\. Structure**
 
 *   Fixed Management Group hierarchy
 *   Defined subscription model
@@ -101,7 +100,7 @@ In a bank like yours, if you allow flexibility everywhere:
 
 * * *
 
-## 2\. Networking Pattern
+### **2\. Networking Pattern**
 
 
 *   Hub-spoke (or chosen model)
@@ -110,7 +109,7 @@ In a bank like yours, if you allow flexibility everywhere:
 
 * * *
 
-## 3\. Security Baseline
+### **3\. Security Baseline**
 
 *   No public IP by default
 *   Encryption enforced
@@ -119,7 +118,7 @@ In a bank like yours, if you allow flexibility everywhere:
 
 * * *
 
-## 4\. Identity Model
+### **4\. Identity Model**
 
 *   Centralized identity
 *   RBAC patterns
@@ -127,7 +126,7 @@ In a bank like yours, if you allow flexibility everywhere:
 
 * * *
 
-## 5\. Governance
+### **5\. Governance**
 
 *   Mandatory tagging
 *   Policy-driven control
@@ -135,7 +134,7 @@ In a bank like yours, if you allow flexibility everywhere:
 
 * * *
 
-## 6\. Deployment Model
+### **6\. Deployment Model**
 
 *   Infrastructure as Code only
 *   Standard pipelines
@@ -143,7 +142,7 @@ In a bank like yours, if you allow flexibility everywhere:
 
 * * *
 
-# ⚖️ Important: It’s Not About Control — It’s About Consistency
+### **⚖️ Important: It’s Not About Control — It’s About Consistency**
 
 This is where many people misunderstand. Opinionated architecture is NOT:
 
@@ -157,9 +156,9 @@ It is:
 
 * * *
 
-# 🔁 Real-world Example
+## 🔁 Real-world Example
 
-## Without Opinionated Architecture
+### **Without Opinionated Architecture**
 
 Team A:
 
@@ -180,7 +179,7 @@ Team C:
 
 * * *
 
-## With Opinionated Architecture
+### **With Opinionated Architecture**
 
 All teams:
 
@@ -198,7 +197,7 @@ All teams:
 
 * * *
 
-# 🔥 The Architect’s Role
+## 🔥 The Architect’s Role
 
 As an architect, your job is NOT to:
 
@@ -212,7 +211,7 @@ That is what an opinionated architecture does.
 
 * * *
 
-# ⚠️ The Balance You Must Maintain
+## ⚠️ The Balance You Must Maintain
 
 Too opinionated:
 
@@ -230,7 +229,7 @@ Too flexible:
 
 * * *
 
-# What Comes Next
+## What Comes Next
 
 Now that you understand _why_ and _what_…
 
