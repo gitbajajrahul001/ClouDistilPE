@@ -1,8 +1,14 @@
+---
+
+layout: default
+title: Designing Network Architecture
+
+---
+
 # 🌐 Part 5 — Designing Network Architecture
 
 ### _Where Most “Good Designs” Break in Production_
 
-# 
 
 Networking is where:
 
@@ -11,21 +17,15 @@ Networking is where:
 *   costs spiral
 *   re-architecture becomes painful
 
-* * *
-
-## 🔥 First Principle
-
-# 
+🔥 First Principle
 
 Before choosing Hub-Spoke, vWAN, or anything:
 
-> **Network design is NOT about topology — it’s about traffic behavior**
+> Network design is NOT about topology — it’s about traffic behavior
 
 * * *
 
-# ❌ The Most Common Mistake
-
-# 
+## ❌ The Most Common Mistake
 
 Teams start with:
 
@@ -46,85 +46,59 @@ Without asking:
 
 * * *
 
-# 🧠 Start With These 4 Questions
+## 🧠 Start With These 4 Questions
 
-## 1\. Traffic Patterns
-
-# 
+### **1\. Traffic Patterns**
 
 *   App → DB?
 *   App → App?
 *   On-prem → Cloud?
 *   Internet → App?
 
-* * *
+## **2\. Trust Boundaries**
 
-## 2\. Trust Boundaries
-
-# 
 
 *   Regulated vs non-regulated
 *   Internal vs external
 *   Production vs non-production
 
-* * *
-
-## 3\. Inspection Requirements
-
-# 
+## **3\. Inspection Requirements**
 
 *   Do you need:
     *   firewall inspection?
     *   WAF?
     *   IDS/IPS?
 
-* * *
 
-## 4\. Connectivity Model
-
-# 
+## **4\. Connectivity Model**
 
 *   Branch → Cloud?
 *   DC → Cloud?
 *   Cloud → Cloud (future AWS)?
 
-* * *
-
-# 🔷 Core Design Models
-
-# 
+## 🔷 Core Design Models
 
 Now we talk topology.
 
-* * *
+### **1\. Hub-Spoke (Most Common)**
 
-## 1\. Hub-Spoke (Most Common)
+```text
+        Branches
+           │
+        vWAN Hub
+       /    |    \
+   VNet1  VNet2  VNet3
+```
 
-# 
-
-        On-Prem  
-           │  
-       Hub VNet  
-     (Firewall, DNS)  
-       /   |   \\  
- Spoke1 Spoke2 Spoke3
-
-* * *
-
-### Why it works
-
-# 
+#### **Why it works**
 
 *   centralized control
 *   easier governance
 *   scalable
 *   security inspection
 
-* * *
+#### **Real-world use**
 
-### Real-world use
-
-# 
 
 *   enterprise workloads
 *   regulated environments
@@ -132,49 +106,36 @@ Now we talk topology.
 
 * * *
 
-## 2\. Virtual WAN (vWAN)
+### **2\. Virtual WAN (vWAN)**
 
-# 
-
+```text
         Branches  
            │  
         vWAN Hub  
        /    |    \\  
    VNet1  VNet2  VNet3
+```
 
-* * *
-
-### Why it works
-
-# 
+#### **Why it works**
 
 *   global scale
 *   simplified branch connectivity
 *   built-in routing
 
-* * *
-
-### Real-world use
-
-# 
+#### **Real-world use**
 
 *   multi-region banks
 *   many branches
 *   global footprint
 
-* * *
 
-## 3\. Mesh (Avoid in Enterprise)
+### **3\. Mesh (Avoid in Enterprise)**
 
-# 
-
+```text
 VNet1 ↔ VNet2 ↔ VNet3
+```
 
-* * *
-
-### Problem
-
-# 
+#### **Problem**
 
 *   no central control
 *   security gaps
@@ -182,27 +143,13 @@ VNet1 ↔ VNet2 ↔ VNet3
 
 * * *
 
-# 🏦 Recommended for Your Bank
+## 🔥 Key Design Components
 
-# 
-
-Start with:
-
-> **Hub-Spoke (evolve to vWAN if needed)**
-
-* * *
-
-# 🔥 Key Design Components
-
-## 1\. Hub VNet (Critical)
-
-# 
+### **1\. Hub VNet (Critical)**
 
 This is your **control plane**
 
-### Contains:
-
-# 
+Contains:
 
 *   Azure Firewall / NVA
 *   DNS (Private DNS)
@@ -211,9 +158,7 @@ This is your **control plane**
 
 * * *
 
-## 2\. Spoke VNets
-
-# 
+### **2\. Spoke VNets**
 
 Each workload lives here:
 
@@ -223,9 +168,7 @@ Each workload lives here:
 
 * * *
 
-## 3\. Private Connectivity (Important)
-
-# 
+### **3\. Private Connectivity (Important)**
 
 *   Private Endpoints
 *   Private DNS Zones
@@ -234,9 +177,7 @@ Each workload lives here:
 
 * * *
 
-## 4\. Egress Control
-
-# 
+### **4\. Egress Control**
 
 All outbound traffic:
 
@@ -244,18 +185,14 @@ All outbound traffic:
 
 * * *
 
-## 5\. Ingress Control
-
-# 
+### **5\. Ingress Control**
 
 *   Application Gateway (WAF)
 *   Front Door (for global apps)
 
 * * *
 
-# 🔐 Security Design (Non-Negotiable)
-
-# 
+## 🔐 Security Design (Non-Negotiable)
 
 *   No direct internet exposure
 *   No public IPs by default
@@ -264,69 +201,52 @@ All outbound traffic:
 
 * * *
 
-# 🔁 Real Example
+## 🔁 Real Example
 
-## Payment Application (PCI)
+### **Payment Application (PCI)**
 
-# 
-
+```text
 Internet → WAF → App Gateway → Spoke VNet → DB (Private Endpoint)  
                         │  
                     Firewall (Hub)
+```
 
-* * *
+### **Internal App**
 
-## Internal App
-
-# 
-
+```text
 On-Prem → ExpressRoute → Hub → Spoke → App
+```
 
 * * *
 
-# ⚠️ Common Mistakes
+## ⚠️ Common Mistakes
 
-## ❌ Over-segmentation
-
-# 
+### ❌ Over-segmentation
 
 *   too many VNets
 *   too many rules
 
 👉 operational nightmare
 
-* * *
-
 ## ❌ No DNS strategy
-
-# 
 
 *   private endpoints fail
 *   name resolution breaks
 
-* * *
-
 ## ❌ Bypassing firewall
 
-# 
 
 *   direct internet access
 *   shadow IT risk
 
-* * *
-
 ## ❌ Ignoring latency
-
-# 
 
 *   cross-region traffic
 *   app performance issues
 
 * * *
 
-# 🧠 Architect Thinking
-
-# 
+## 🧠 Architect Thinking
 
 You don’t ask:
 
@@ -334,29 +254,27 @@ You don’t ask:
 
 You ask:
 
-> **“Where should traffic flow, and where should it be controlled?”**
+> “Where should traffic flow, and where should it be controlled?”
+
+One-Line Rule:
+
+> Design network around traffic and control — not diagrams
 
 * * *
 
-# 💡 One-Line Rule
-
-# 
-
-> **Design network around traffic and control — not diagrams**
-
-* * *
-
-# What Comes Next
-
-# 
+### **What Comes Next**
 
 Now that network is clear, we move into:
 
-## 🔐 Identity & Access Design (RBAC, PIM, Zero Trust)
-
-# 
+🔐 Identity & Access Design (RBAC, PIM, Zero Trust)
 
 Because:
 
 > Network controls traffic  
 > Identity controls access
+
+---
+
+[⬅ Back to Series Home](index.md) |  [⬅ Back to: Subscription Design ➡](part4-subscriptions.md) | [Next: Identity Design ➡](part6-identity.md)
+
+

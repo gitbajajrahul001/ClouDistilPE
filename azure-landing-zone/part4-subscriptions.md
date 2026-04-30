@@ -152,7 +152,7 @@ You must balance these:
 
 Instead of 1 rigid rule, use *pattern-based approach*
 
-### Pattern 1 — App + Environment (most common)
+### **Pattern 1 — App + Environment (most common)**
 
 App1-Prod  
 App1-NonProd  
@@ -167,7 +167,7 @@ App2-NonProd
 
 * * *
 
-## Pattern 2 — Shared Non-Prod
+### **Pattern 2 — Shared Non-Prod**
 
 App1-Prod  
 Shared-NonProd
@@ -180,7 +180,7 @@ Shared-NonProd
 
 * * *
 
-## Pattern 3 — Regulated Workloads
+### **Pattern 3 — Regulated Workloads**
 
 PCI-App1-Prod  
 PCI-App1-NonProd
@@ -193,7 +193,7 @@ PCI-App1-NonProd
 
 * * *
 
-## Sandbox Subscription
+### **Sandbox Subscription**
 
 Sandbox-Sub
 
@@ -220,7 +220,7 @@ Design subscriptions around ownership and cost — not just structure
 
 * * *
 
-# 🔁 Relationship with Management Groups
+## 🔁 Relationship with Management Groups
 
 | Level | Purpose |
 | --- | --- |
@@ -229,7 +229,7 @@ Design subscriptions around ownership and cost — not just structure
 
 * * *
 
-# 🧠 Architect Thinking
+## 🧠 Architect Thinking
 
 You don’t ask:
 
@@ -241,7 +241,7 @@ You ask:
 
 * * *
 
-# 🚨 Subtle but Important Insight
+## 🚨 Subtle but Important Insight
 
 Most failures happen when:
 
@@ -256,8 +256,6 @@ Most failures happen when:
 * * *
 
 # What Comes Next
-
-# 
 
 Now we have:
 
