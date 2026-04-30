@@ -60,7 +60,6 @@ Because:
 
 ### **3\. For how long?**
 
-# 
 
 *   permanent
 *   temporary
@@ -276,8 +275,8 @@ Now we move into:
 
 Because:
 
-> Identity controls access  
-> Governance controls behavior
+> - Identity controls access  
+> - Governance controls behavior
 
 ---
 
