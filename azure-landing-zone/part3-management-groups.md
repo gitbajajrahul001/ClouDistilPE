@@ -20,7 +20,7 @@ That thinking is wrong.
 
 ## 🔥 What Management Groups Really Are
 
-> **Management Groups define governance boundaries — not structure for convenience**
+> Management Groups define governance boundaries — not structure for convenience
 
 They control:
 
@@ -62,7 +62,7 @@ App3
 
 ***
 
-✅ **The Right Way**
+✅ The Right Way
 
 Design based on:
 
@@ -111,6 +111,7 @@ Separate:
 
 Here’s a practical starting point:
 
+```text
 Tenant Root  
 │  
 ├── Platform  
@@ -133,6 +134,7 @@ Tenant Root
 ├── Transitional  
 │   ├── Quarantine  
 │   └── Decommissioning
+```
 
 * * *
 
@@ -213,9 +215,9 @@ You ask:
 
 * * *
 
-# 🔁 Example (Important)
+## 🔁 Example (Important)
 
-## If PCI needs:
+### If PCI needs:
 
 *   no public IP
 *   restricted regions
@@ -225,7 +227,7 @@ You ask:
 
 * * *
 
-## If Dev vs Prod:
+### If Dev vs Prod:
 
 *   same policies
 *   different access
@@ -234,13 +236,13 @@ You ask:
 
 * * *
 
-## 💡 One-Line Rule
+### 💡 One-Line Rule
 
 > Create a new Management Group only when policy or governance needs to change significantly
 
 * * *
 
-# Where Most People Go Wrong
+## Where Most People Go Wrong
 
 *   Too many MGs → complexity
 *   Too few MGs → no control
