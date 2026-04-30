@@ -1,3 +1,10 @@
+---
+
+layout: default
+title: Designing Management Group
+
+---
+
 🏗️ Designing Management Group Hierarchy
 Where Governance Actually Starts
 
@@ -177,3 +184,7 @@ Because:
 
 MG defines governance
 Subscription defines ownership, cost, and deployment boundary
+
+---
+
+[⬅ Back to Series Home](index.md) |  [⬅ Back to: Why Landing Zones Fail](part1-why-landing-zones-fail.md) | [Next: Subscription Design ➡](part4-subscriptions.md)

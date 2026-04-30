@@ -1,3 +1,9 @@
+---
+layout: default
+title: Azure Landing Zone Deep Dive
+---
+
+
 # 🏗️ Azure Landing Zone Deep Dive  
 ### *From Design to Enterprise-Scale Implementation*
 

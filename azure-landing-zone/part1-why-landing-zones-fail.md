@@ -5,7 +5,7 @@ title: Why Landing Zones Fail
 
 ---
 
-# 🚧 Why Azure Landing Zones Fail in Real Enterprises
+# 🚧 Why Azure Landing Zones Fail
 
 ### _Before You Design Anything, Understand This_
 
@@ -40,7 +40,7 @@ Landing Zone is treated like:
 
 Instead of what it actually is:
 
-> **The foundation of governance, security, networking, identity, and operations for the next 5–10 years**
+> The foundation of governance, security, networking, identity, and operations for the next 5–10 years
 
 * * *
 
@@ -80,7 +80,7 @@ Some teams go the opposite direction:
 
 Before even migrating a single workload.
 
-Result:
+**Result:**
 
 *   nothing moves
 *   teams get blocked
@@ -184,7 +184,7 @@ Result:
 
 All these failures come down to one thing:
 
-> **Landing Zone is treated as a deployment — not as a strategic architecture decision**
+> Landing Zone is treated as a deployment — not as a strategic architecture decision
 
 * * *
 
@@ -221,3 +221,4 @@ This is where:
 ---
 
 
+[⬅ Back to Series Home](index.md) | | [Next: Opinionated Architecture ➡](part2-opinionated-architecture.md)
