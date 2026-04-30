@@ -1,10 +1,13 @@
-#   
+---
+
+layout: default
+title: Security & Governance
+
+---
 
 # 🛡️ Part 7 — Security & Governance
 
 ### _Where Architecture Becomes Control_
-
-# 
 
 Up to now, you have:
 
@@ -15,21 +18,15 @@ Up to now, you have:
 
 But none of this matters if:
 
-> **People can bypass it**
+> People can bypass it
+
+🔥 First Principle
+
+> In cloud, governance is not a document — it is enforced through policy
 
 * * *
 
-## 🔥 First Principle
-
-# 
-
-> **In cloud, governance is not a document — it is enforced through policy**
-
-* * *
-
-# ❌ The Most Common Mistake
-
-# 
+## ❌ The Most Common Mistake
 
 Teams do:
 
@@ -45,47 +42,31 @@ But never enforce them.
 
 * * *
 
-# 🧠 What Governance Actually Means
-
-# 
+## 🧠 What Governance Actually Means
 
 Governance is:
 
-*   **what is allowed**
-*   **what is denied**
-*   **what is monitored**
-*   **what is enforced automatically**
+*   what is allowed
+*   what is denied
+*   what is monitored
+*   what is enforced automatically
 
 * * *
 
-# 🔷 Core Governance Components
+## 🔷 Core Governance Components
 
-# 
+### **1\. Azure Policy (Most Critical)**
 
-* * *
+This is your enforcement engine
 
-## 1\. Azure Policy (Most Critical)
-
-# 
-
-> **This is your enforcement engine**
-
-* * *
-
-### What it does
-
-# 
+**What it does**
 
 *   Deny non-compliant deployments
 *   Enforce configurations
 *   Audit resources
 *   Auto-remediate
 
-* * *
-
-### Real Examples
-
-# 
+**Real Examples**
 
 *   ❌ Deny public IP creation
 *   ❌ Deny deployment outside approved regions
@@ -93,11 +74,8 @@ Governance is:
 *   ✔ Require encryption
 *   ✔ Enable diagnostic logs
 
-* * *
+🔥 **Policy Types**
 
-## 🔥 Policy Types
-
-# 
 
 | Type | Purpose |
 | --- | --- |
@@ -106,11 +84,7 @@ Governance is:
 | DeployIfNotExists | Auto-fix |
 | Modify | Enforce configuration |
 
-* * *
-
-## 🏦 Real Example (PCI MG)
-
-# 
+**Real Example (PCI MG)**
 
 At PCI MG:
 
@@ -123,17 +97,11 @@ At PCI MG:
 
 * * *
 
-# 🔷 2. Policy Initiatives (Policy Sets)
+### **2. Policy Initiatives (Policy Sets)**
 
-# 
+Group policies into logical bundles
 
-> Group policies into logical bundles
-
-* * *
-
-### Example
-
-# 
+**For Example**:
 
 **“PCI Baseline Initiative”**
 
@@ -142,34 +110,22 @@ At PCI MG:
 *   Logging mandatory
 *   Approved regions
 
-* * *
-
 👉 Applied once → enforces everything
 
 * * *
 
-# 🔷 3. Microsoft Defender for Cloud
+###  **3. Microsoft Defender for Cloud**
 
-# 
+Security posture + threat protection
 
-> Security posture + threat protection
-
-* * *
-
-### What it does
-
-# 
+**What it does**
 
 *   vulnerability assessment
 *   security recommendations
 *   threat detection
 *   compliance scoring
 
-* * *
-
-### Real Example
-
-# 
+**Real Example**
 
 *   detects exposed ports
 *   flags missing patches
@@ -177,28 +133,18 @@ At PCI MG:
 
 * * *
 
-# 🔷 4. Microsoft Sentinel (SIEM/SOAR)
+### **4. Microsoft Sentinel (SIEM/SOAR)**
 
-# 
+Central security monitoring
 
-> Central security monitoring
-
-* * *
-
-### What it does
-
-# 
+**What it does**
 
 *   collects logs
 *   correlates events
 *   detects threats
 *   automates response
 
-* * *
-
-### Real Example
-
-# 
+**Real Example**
 
 *   detects brute-force attempts
 *   flags unusual login patterns
@@ -206,52 +152,32 @@ At PCI MG:
 
 * * *
 
-# 🔷 5. Key Vault
+### **5. Key Vault**
 
-# 
+Secure secrets management
 
-> Secure secrets management
-
-* * *
-
-### Stores:
-
-# 
+**Stores:**
 
 *   passwords
 *   certificates
 *   API keys
 
-* * *
-
-### Real Example
-
-# 
+**Real Example**
 
 *   app retrieves secrets securely
 *   no hardcoded credentials
 
 * * *
 
-# 🔷 6. Backup & DR Governance
+### **6. Backup & DR Governance**
 
-# 
-
-* * *
-
-### Tools
-
-# 
+**Tools**
 
 *   Recovery Services Vault
 *   Azure Backup
 *   Site Recovery
 
-* * *
-
-### Enforced via policy
-
-# 
+**Enforced via policy**
 
 *   backup must be enabled
 *   retention rules
@@ -259,120 +185,60 @@ At PCI MG:
 
 * * *
 
-# 🔷 7. Tagging Governance
+### **7. Tagging Governance**
 
-# 
+Critical for cost + ownership
 
-> Critical for cost + ownership
-
-* * *
-
-### Example tags
-
-# 
+**Example tags**
 
 *   Application
 *   Owner
 *   Environment
 *   Cost Center
 
-* * *
-
-### Enforced via:
-
-# 
+**Enforced via:**
 
 *   policy (mandatory tags)
 *   automation
 
 * * *
 
-# 🔥 Real-World Flow
+## ⚠️ Common Mistakes
 
-## Without Governance
+### ❌ Too many policies too early
 
-# 
+> 👉 blocks teams
 
-*   public IPs everywhere
-*   no logs
-*   no ownership
-*   security gaps
+### ❌ Audit-only mode forever
 
-* * *
+> 👉 no real enforcement
 
-## With Governance
+### ❌ No exception process
 
-# 
+> 👉 teams bypass governance
 
-*   everything enforced
-*   non-compliant resources blocked
-*   visibility across estate
+### ❌ Policies without testing
+
+> 👉 break deployments
 
 * * *
 
-# ⚠️ Common Mistakes
-
-# 
-
-* * *
-
-## ❌ Too many policies too early
-
-# 
-
-👉 blocks teams
-
-* * *
-
-## ❌ Audit-only mode forever
-
-# 
-
-👉 no real enforcement
-
-* * *
-
-## ❌ No exception process
-
-# 
-
-👉 teams bypass governance
-
-* * *
-
-## ❌ Policies without testing
-
-# 
-
-👉 break deployments
-
-* * *
-
-# 🧠 Architect Thinking
-
-# 
+## 🧠 Architect Thinking
 
 You don’t ask:
 
-> “What policies should I create?”
+“What policies should I create?
 
 You ask:
 
-> **“What behavior must never be allowed in this environment?”**
+“What behavior must never be allowed in this environment?”
+
+> If it’s not enforced, it’s not governance
 
 * * *
 
-# 💡 One-Line Rule
+## 🔁 How Everything Connects
 
-# 
-
-> **If it’s not enforced, it’s not governance**
-
-* * *
-
-# 🔁 How Everything Connects
-
-# 
 
 | Layer | Role |
 | --- | --- |
@@ -380,33 +246,30 @@ You ask:
 | Network | How traffic flows |
 | Policy | What is allowed |
 
-* * *
-
-# 🔥 Key Insight
-
-# 
-
 > Governance is what turns architecture into a **platform**
 
 Without it:
 
 *   you have cloud  
-    With it:
+
+With it:
+
 *   you have controlled cloud
 
 * * *
 
-# What Comes Next
-
-# 
+## What Comes Next
 
 Now we move into:
 
-## ⚙️ Deployment & Automation (IaC, CI/CD, Platform Engineering)
-
-# 
+⚙️ Deployment & Automation (IaC, CI/CD, Platform Engineering)
 
 Because:
 
 > If governance defines rules  
 > Automation ensures they are followed consistently
+
+---
+
+
+[⬅ Back to Series Home](index.md) |  [⬅ Back to: Identity Design ➡](part6-identity.md) | [Next: Deployment & Automation ➡](part8-automation.md)
