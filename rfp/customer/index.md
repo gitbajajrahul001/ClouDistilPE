@@ -1,13 +1,15 @@
 ---
 layout: default
-title: Buyer Journey - From Problem to Sourcing Decision
+title: Buyer's Journey - From Problem to Sourcing Decision
 ---
 
-## 🏢 Buyer Journey: RFP Stages
+## 🏢 Buyer's Journey: RFP Stages
 
 This section covers the key stages an enterprise typically goes through before, during, and after an RFP. The stages may expand or collapse depending on the scale, complexity, urgency, and governance model of the sourcing initiative.
 
-The goal is simple: to provide a structured, end-to-end view of how a business need becomes a formal sourcing decision. The diagram below provides a high-level view of how an enterprise RFP lifecycle typically flows—from initial problem recognition to final vendor evaluation. It primarily focuses on the typical flow at the customer's side.
+**The goal is simple**: to provide a structured, end-to-end view of how a business need becomes a formal sourcing decision. 
+
+The diagram below provides a high-level view of how an enterprise RFP lifecycle typically flows—from initial problem recognition to final vendor evaluation. It primarily focuses on the typical flow at the customer's side.
 
 ![RFP Lifecycle](images/rfp-diagram.png)
 
@@ -21,7 +23,7 @@ Most think an RFP starts when the document is sent to vendors. In reality, that�
 
 ---
 
-### 🧭 Explore this Series
+## 🧭 Explore this Series
 
 I will break this into stages. For each stage, I will cover:
 

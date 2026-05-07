@@ -55,16 +55,16 @@ If this stage is weak, the company frames the problem too narrowly.
 
 For example:
 
-> “We need cloud”  
+> We need cloud
 
 Instead of:
 
-> “We need a new operating model for infrastructure, applications, governance, automation, and service delivery”
+> We need a new operating model for infrastructure, applications, governance, automation, and service delivery
 
 **That difference is huge.**
 
 ---
 
-[⬅ Back to Series Home](index.md) | [⬅ Trigger & Problem Recognition](stage-1.md) | [Next: Stage 2:Scoping & Alignment ➡](stage-2.md)
+[⬅ Back to Series Home](index.md) | [⬅ Trigger & Problem Recognition](stage-1.md) | [Next: Stage 2: Scoping & Alignment ➡](stage-2.md)
 
 
