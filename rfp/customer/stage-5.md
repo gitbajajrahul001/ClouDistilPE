@@ -7,6 +7,8 @@ title: Sourcing Strategy
 
 Now we define: How will Acme go to market to find the right partner(s)?
 
+---
+
 ## 👥 Who Is Involved
 
 | Role | Description |
