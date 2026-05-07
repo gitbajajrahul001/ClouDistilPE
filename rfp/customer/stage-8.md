@@ -18,10 +18,10 @@ Ensure RFP is:
 
 ## 👥 Who Is Involved
 
-- CIO / CTO |
-- Procurement |
-- Legal |
-- Risk & Compliance |
+- CIO / CTO
+- Procurement
+- Legal
+- Risk & Compliance
 
 ---
 
@@ -37,11 +37,11 @@ Ensure RFP is:
 
 ## 📦 Output
 
-1) RFP is Approved
-2) RFP released to shortlisted vendors
-3) Timelines shared
-4) Q&A window (vendors can ask clarification questions)
-5) Submission deadline
+1. RFP is Approved
+2. RFP released to shortlisted vendors
+3. Timelines shared
+4. Q&A window (vendors can ask clarification questions)
+5. Submission deadline
 
 At this Stage : Vendors now start preparing proposals
 
