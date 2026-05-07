@@ -6,7 +6,7 @@ title: Enterprise Sourcing-The RFP Lifecycle Explained
 ---
 
 
-### 📊 Enterprise Sourcing: The RFP Lifecycle Explained
+## 📊 Enterprise Sourcing: The RFP Lifecycle Explained
 
 Request For Proposals (RFPs) are often understood from the provider’s side — how to respond, price, submit, and win. But the journey starts much earlier, inside the enterprise, where a business need becomes a sourcing decision.
 
@@ -16,12 +16,12 @@ The goal is to explain not just what happens in an RFP, but why it happens, who 
 
 ---
 
-### 🧭 Explore the Series
+## 🧭 Explore the Series
 
-- 🏢 [Buyer Journey](./customer)  
+- 🏢 [Buyer's Journey](./customer)  
   From business need to sourcing decision.
 
-- 🤝 [Provider Response](./provider)  
+- 🤝 [Provider's Response](./provider)  
   From RFP analysis to proposal submission.
 
 ---
